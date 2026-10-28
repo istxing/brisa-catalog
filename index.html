@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>清風公版書庫 · Brisa Public Catalog</title>
+  <meta name="description" content="全平台通用、純靜態、符合標準 OPDS 1.2 規範的多語種公開版權書庫。">
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --surface: #ffffff;
+      --text: #212529;
+      --text-muted: #6c757d;
+      --border: #e9ecef;
+      --primary: #198754;
+      --primary-hover: #157347;
+      --primary-bg: #e8f5e9;
+      --secondary: #0d6efd;
+      --secondary-hover: #0b5ed7;
+      --font-serif: "Songti SC", "SimSun", "STSong", "Noto Serif CJK SC", "Noto Serif", Georgia, serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --surface: #1e1e1e;
+        --text: #e0e0e0;
+        --text-muted: #9e9e9e;
+        --border: #333333;
+        --primary: #2ea043;
+        --primary-hover: #3fb950;
+        --primary-bg: #13231b;
+        --secondary: #388bfd;
+        --secondary-hover: #58a6ff;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .endpoint-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin: 1.5rem auto 2rem;
+      max-width: 760px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .endpoint-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.5rem 0;
+      font-family: monospace;
+      font-size: 0.95rem;
+      border-bottom: 1px dashed var(--border);
+    }
+    .endpoint-item:last-child {
+      border-bottom: none;
+    }
+    .endpoint-label {
+      color: var(--text-muted);
+      font-weight: 600;
+      white-space: nowrap;
+      font-family: var(--font-sans);
+    }
+    .endpoint-url {
+      color: var(--text);
+      overflow-x: auto;
+      white-space: nowrap;
+      background: var(--bg);
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      flex: 1;
+    }
+    .btn-copy {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.35rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .btn-copy:hover { background: var(--primary-hover); }
+    .filters {
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .search-bar {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 1rem;
+    }
+    .search-bar:focus {
+      outline: 2px solid var(--primary);
+      border-color: transparent;
+    }
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .pill {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.35rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .pill.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+    .badge {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+    .badge-lang { background: var(--border); color: var(--text-muted); }
+    .badge-cat { background: var(--primary-bg); color: var(--primary); }
+    .card-title {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+    .card-author {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      margin-top: auto;
+    }
+    .card-actions {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .btn {
+      text-decoration: none;
+      padding: 0.4rem 0.7rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      text-align: center;
+      transition: background 0.15s;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+      flex: 1;
+    }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-secondary {
+      background: var(--secondary);
+      color: white;
+      flex: 1;
+    }
+    .btn-secondary:hover { background: var(--secondary-hover); }
+    .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+    .btn-outline:hover { background: var(--border); }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🍃 清風公版書庫</h1>
+      <p class="subtitle">精選 60 部傳世典籍與世界公版名著 · OPDS 1.2 訂閱源與 EPUB 完整下載</p>
+
+      <div class="endpoint-box">
+        <div class="endpoint-item">
+          <span class="endpoint-label">📡 OPDS 1.2 源：</span>
+          <span class="endpoint-url" id="opdsUrl">https://books.uni3k.com/opds/root.xml</span>
+          <button class="btn-copy" onclick="copyText('opdsUrl', this)">複製地址</button>
+        </div>
+        <div class="endpoint-item">
+          <span class="endpoint-label">⚡ JSON 索引：</span>
+          <span class="endpoint-url" id="jsonUrl">https://books.uni3k.com/index.json</span>
+          <a class="btn-copy" style="text-decoration:none;" href="/index.json" target="_blank">查看 JSON</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="filters">
+      <input type="text" id="searchInput" class="search-bar" placeholder="🔍 搜索書名、作者、朝代、別名..." />
+      <div class="pills" id="filterPills">
+        <button class="pill active" data-filter="all">全部 (60)</button>
+        <button class="pill" data-filter="zh-Hant">繁體中文</button>
+        <button class="pill" data-filter="en">English</button>
+        <button class="pill" data-filter="ja">日本語</button>
+        <button class="pill" data-filter="jing">經部</button>
+        <button class="pill" data-filter="shi">史部</button>
+        <button class="pill" data-filter="zi">子部</button>
+        <button class="pill" data-filter="ji">集部</button>
+        <button class="pill" data-filter="fiction">文學小說</button>
+      </div>
+    </section>
+
+    <main class="grid" id="bookGrid">
+      <article class="card" data-lang="en" data-cat="drama" data-search="the raven edgar allan poe 1845 乌鸦 黑鸦 edgar allan poe 诗歌戏剧 the-raven">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">诗歌戏剧</span>
+        </div>
+        <h3 class="card-title">The Raven</h3>
+        <p class="card-author">[1845] Edgar Allan Poe</p>
+        <p class="card-meta">1 章 · 1,090 词 · EPUB 6 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/the-raven/the-raven.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/the-raven/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/the-raven.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="a study in scarlet arthur conan doyle 1887 血字的研究 福尔摩斯第一部 conan doyle 文学小说 study-in-scarlet">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">A Study in Scarlet</h3>
+        <p class="card-author">[1887] Arthur Conan Doyle</p>
+        <p class="card-meta">16 章 · 45,474 词 · EPUB 117 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/study-in-scarlet/study-in-scarlet.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/study-in-scarlet/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/study-in-scarlet.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the sign of the four arthur conan doyle 1890 四签名 福尔摩斯四签名 文学小说 sign-of-the-four">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Sign of the Four</h3>
+        <p class="card-author">[1890] Arthur Conan Doyle</p>
+        <p class="card-meta">12 章 · 43,122 词 · EPUB 106 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/sign-of-the-four/sign-of-the-four.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/sign-of-the-four/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/sign-of-the-four.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the adventures of sherlock holmes arthur conan doyle 1892 福尔摩斯探案集 福尔摩斯冒险史 文学小说 sherlock-holmes-adventures">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Adventures of Sherlock Holmes</h3>
+        <p class="card-author">[1892] Arthur Conan Doyle</p>
+        <p class="card-meta">12 章 · 104,662 词 · EPUB 229 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/sherlock-holmes-adventures/sherlock-holmes-adventures.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/sherlock-holmes-adventures/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/sherlock-holmes-adventures.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the memoirs of sherlock holmes arthur conan doyle 1894 福尔摩斯回忆录 最后一案 文学小说 sherlock-holmes-memoirs">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Memoirs of Sherlock Holmes</h3>
+        <p class="card-author">[1894] Arthur Conan Doyle</p>
+        <p class="card-meta">11 章 · 87,721 词 · EPUB 194 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/sherlock-holmes-memoirs/sherlock-holmes-memoirs.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/sherlock-holmes-memoirs/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/sherlock-holmes-memoirs.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the hound of the baskervilles arthur conan doyle 1902 巴斯克维尔的猎犬 巴斯克维尔猎犬 文学小说 hound-of-the-baskervilles">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Hound of the Baskervilles</h3>
+        <p class="card-author">[1902] Arthur Conan Doyle</p>
+        <p class="card-meta">15 章 · 59,730 词 · EPUB 142 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/hound-of-the-baskervilles/hound-of-the-baskervilles.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/hound-of-the-baskervilles/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/hound-of-the-baskervilles.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="twenty thousand leagues under the sea jules verne 1870 海底两万里 尼摩船长 jules verne 文学小说 twenty-thousand-leagues">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Twenty Thousand Leagues Under the Sea</h3>
+        <p class="card-author">[1870] Jules Verne</p>
+        <p class="card-meta">46 章 · 103,539 词 · EPUB 274 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/twenty-thousand-leagues/twenty-thousand-leagues.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/twenty-thousand-leagues/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/twenty-thousand-leagues.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="around the world in eighty days jules verne 1873 八十天环游地球 环游世界八十天 文学小说 around-the-world-in-eighty-days">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Around the World in Eighty Days</h3>
+        <p class="card-author">[1873] Jules Verne</p>
+        <p class="card-meta">38 章 · 64,482 词 · EPUB 183 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/around-the-world-in-eighty-days/around-the-world-in-eighty-days.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/around-the-world-in-eighty-days/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/around-the-world-in-eighty-days.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="treasure island robert louis stevenson 1883 金银岛 史蒂文森 文学小说 treasure-island">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Treasure Island</h3>
+        <p class="card-author">[1883] Robert Louis Stevenson</p>
+        <p class="card-meta">34 章 · 67,353 词 · EPUB 172 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/treasure-island/treasure-island.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/treasure-island/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/treasure-island.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="robinson crusoe daniel defoe 1719 鲁滨逊漂流记 笛福 文学小说 robinson-crusoe">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Robinson Crusoe</h3>
+        <p class="card-author">[1719] Daniel Defoe</p>
+        <p class="card-meta">20 章 · 121,052 词 · EPUB 244 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/robinson-crusoe/robinson-crusoe.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/robinson-crusoe/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/robinson-crusoe.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the time machine h. g. wells 1895 时间机器 威尔斯 文学小说 the-time-machine">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Time Machine</h3>
+        <p class="card-author">[1895] H. G. Wells</p>
+        <p class="card-meta">16 章 · 32,490 词 · EPUB 86 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/the-time-machine/the-time-machine.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/the-time-machine/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/the-time-machine.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="pride and prejudice jane austen 1813 傲慢与偏见 简奥斯汀 jane austen 文学小说 pride-and-prejudice">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Pride and Prejudice</h3>
+        <p class="card-author">[1813] Jane Austen</p>
+        <p class="card-meta">61 章 · 122,309 词 · EPUB 317 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/pride-and-prejudice/pride-and-prejudice.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/pride-and-prejudice/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/pride-and-prejudice.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="sense and sensibility jane austen 1811 理智与情感 简奥斯汀 文学小说 sense-and-sensibility">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Sense and Sensibility</h3>
+        <p class="card-author">[1811] Jane Austen</p>
+        <p class="card-meta">50 章 · 120,443 词 · EPUB 302 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/sense-and-sensibility/sense-and-sensibility.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/sense-and-sensibility/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/sense-and-sensibility.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="jane eyre charlotte brontë 1847 简爱 夏洛蒂勃朗特 文学小说 jane-eyre">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Jane Eyre</h3>
+        <p class="card-author">[1847] Charlotte Brontë</p>
+        <p class="card-meta">38 章 · 185,575 词 · EPUB 452 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/jane-eyre/jane-eyre.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/jane-eyre/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/jane-eyre.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="a tale of two cities charles dickens 1859 双城记 狄更斯 文学小说 tale-of-two-cities">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">A Tale of Two Cities</h3>
+        <p class="card-author">[1859] Charles Dickens</p>
+        <p class="card-meta">49 章 · 137,284 词 · EPUB 339 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/tale-of-two-cities/tale-of-two-cities.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/tale-of-two-cities/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/tale-of-two-cities.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the great gatsby f. scott fitzgerald 1925 了不起的盖茨比 菲茨杰拉德 文学小说 the-great-gatsby">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Great Gatsby</h3>
+        <p class="card-author">[1925] F. Scott Fitzgerald</p>
+        <p class="card-meta">9 章 · 49,657 词 · EPUB 120 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/the-great-gatsby/the-great-gatsby.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/the-great-gatsby/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/the-great-gatsby.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the adventures of tom sawyer mark twain 1876 汤姆索亚历险记 马克吐温 文学小说 tom-sawyer">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Adventures of Tom Sawyer</h3>
+        <p class="card-author">[1876] Mark Twain</p>
+        <p class="card-meta">36 章 · 70,521 词 · EPUB 187 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/tom-sawyer/tom-sawyer.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/tom-sawyer/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/tom-sawyer.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the call of the wild jack london 1903 野性的呼唤 杰克伦敦 文学小说 call-of-the-wild">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Call of the Wild</h3>
+        <p class="card-author">[1903] Jack London</p>
+        <p class="card-meta">7 章 · 31,833 词 · EPUB 77 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/call-of-the-wild/call-of-the-wild.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/call-of-the-wild/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/call-of-the-wild.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="alice's adventures in wonderland lewis carroll 1865 爱丽丝梦游仙境 爱丽丝漫游奇境记 文学小说 alice-in-wonderland">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">Alice's Adventures in Wonderland</h3>
+        <p class="card-author">[1865] Lewis Carroll</p>
+        <p class="card-meta">12 章 · 25,444 词 · EPUB 64 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/alice-in-wonderland/alice-in-wonderland.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/alice-in-wonderland/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/alice-in-wonderland.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="fiction" data-search="the happy prince and other tales oscar wilde 1888 快乐王子 王尔德童话 夜莺与玫瑰 文学小说 happy-prince">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">The Happy Prince and Other Tales</h3>
+        <p class="card-author">[1888] Oscar Wilde</p>
+        <p class="card-meta">5 章 · 16,197 词 · EPUB 37 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/happy-prince/happy-prince.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/happy-prince/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/happy-prince.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="philosophy" data-search="walden henry david thoreau 1854 瓦尔登湖 梭罗 哲学思想 walden">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">哲学思想</span>
+        </div>
+        <h3 class="card-title">Walden</h3>
+        <p class="card-author">[1854] Henry David Thoreau</p>
+        <p class="card-meta">18 章 · 105,236 词 · EPUB 244 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/walden/walden.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/walden/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/walden.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="en" data-cat="philosophy" data-search="the art of war sun tzu (trans. lionel giles) 1910 孙子兵法英译本 sun tzu 哲学思想 art-of-war-en">
+        <div class="card-header">
+          <span class="badge badge-lang">English</span>
+          <span class="badge badge-cat">哲学思想</span>
+        </div>
+        <h3 class="card-title">The Art of War</h3>
+        <p class="card-author">[1910] Sun Tzu (trans. Lionel Giles)</p>
+        <p class="card-meta">20 章 · 12,984 词 · EPUB 43 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/art-of-war-en/art-of-war-en.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/art-of-war-en/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/art-of-war-en.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="こころ 夏目漱石 1914 心 夏目漱石 心 kokoro 文学小说 kokoro">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">こころ</h3>
+        <p class="card-author">[1914] 夏目漱石</p>
+        <p class="card-meta">1 章 · 18,211 字 · EPUB 172 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/kokoro/kokoro.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/kokoro/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/kokoro.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="吾輩は猫である 夏目漱石 1905 我是猫 夏目漱石 我是猫 i am a cat 文学小说 wagahai-wa-neko-de-aru">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">吾輩は猫である</h3>
+        <p class="card-author">[1905] 夏目漱石</p>
+        <p class="card-meta">1 章 · 36,550 字 · EPUB 380 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/wagahai-wa-neko-de-aru/wagahai-wa-neko-de-aru.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/wagahai-wa-neko-de-aru/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/wagahai-wa-neko-de-aru.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="坊っちゃん 夏目漱石 1906 少爷 夏目漱石 少爷 文学小说 botchan">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">坊っちゃん</h3>
+        <p class="card-author">[1906] 夏目漱石</p>
+        <p class="card-meta">1 章 · 11,790 字 · EPUB 107 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/botchan/botchan.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/botchan/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/botchan.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="羅生門 芥川龍之介 1915 罗生门 rashomon 芥川龙之介 文学小说 rashomon">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">羅生門</h3>
+        <p class="card-author">[1915] 芥川龍之介</p>
+        <p class="card-meta">1 章 · 1,268 字 · EPUB 11 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/rashomon/rashomon.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/rashomon/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/rashomon.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="蜘蛛の糸 芥川龍之介 1918 蜘蛛之丝 芥川龙之介 蜘蛛之丝 文学小说 kumo-no-ito">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">蜘蛛の糸</h3>
+        <p class="card-author">[1918] 芥川龍之介</p>
+        <p class="card-meta">1 章 · 334 字 · EPUB 7 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/kumo-no-ito/kumo-no-ito.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/kumo-no-ito/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/kumo-no-ito.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="鼻 芥川龍之介 1916 鼻 芥川龙之介 鼻 文学小说 hana">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">鼻</h3>
+        <p class="card-author">[1916] 芥川龍之介</p>
+        <p class="card-meta">1 章 · 718 字 · EPUB 10 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/hana/hana.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/hana/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/hana.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="ja" data-cat="fiction" data-search="舞姫 森鴎外 1890 舞姬 森鸥外 文学小说 maihime">
+        <div class="card-header">
+          <span class="badge badge-lang">日本語</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">舞姫</h3>
+        <p class="card-author">[1890] 森鴎外</p>
+        <p class="card-meta">1 章 · 1,110 字 · EPUB 22 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/maihime/maihime.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/maihime/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/maihime.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="三國演義 羅貫中 元末明初 三国演义 三国志演义 romance of the three kingdoms 文学小说 sanguo-yanyi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">三國演義</h3>
+        <p class="card-author">[元末明初] 羅貫中</p>
+        <p class="card-meta">123 章 · 91,729 字 · EPUB 954 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/sanguo-yanyi/sanguo-yanyi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/sanguo-yanyi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/sanguo-yanyi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="水滸傳 施耐庵 元末明初 水浒传 water margin 文学小说 shuihu-zhuan">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">水滸傳</h3>
+        <p class="card-author">[元末明初] 施耐庵</p>
+        <p class="card-meta">122 章 · 125,718 字 · EPUB 1322 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/shuihu-zhuan/shuihu-zhuan.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/shuihu-zhuan/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/shuihu-zhuan.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="西遊記 吳承恩 明 西游记 journey to the west 文学小说 xiyouji">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">西遊記</h3>
+        <p class="card-author">[明] 吳承恩</p>
+        <p class="card-meta">101 章 · 104,898 字 · EPUB 1098 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/xiyouji/xiyouji.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/xiyouji/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/xiyouji.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="紅樓夢 曹雪芹 清 红楼梦 石头记 dream of the red chamber 文学小说 hongloumeng">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">紅樓夢</h3>
+        <p class="card-author">[清] 曹雪芹</p>
+        <p class="card-meta">120 章 · 108,995 字 · EPUB 1271 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/hongloumeng/hongloumeng.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/hongloumeng/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/hongloumeng.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="封神演義 許仲琳 明 封神演义 封神榜 文学小说 fengshen-yanyi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">封神演義</h3>
+        <p class="card-author">[明] 許仲琳</p>
+        <p class="card-meta">100 章 · 85,641 字 · EPUB 904 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/fengshen-yanyi/fengshen-yanyi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/fengshen-yanyi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/fengshen-yanyi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="東周列國志 馮夢龍 纂輯 明末清初 东周列国志 冯梦龙 文学小说 dongzhou-lieguozhi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">東周列國志</h3>
+        <p class="card-author">[明末清初] 馮夢龍 纂輯</p>
+        <p class="card-meta">110 章 · 102,425 字 · EPUB 1053 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/dongzhou-lieguozhi/dongzhou-lieguozhi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/dongzhou-lieguozhi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/dongzhou-lieguozhi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="世說新語 劉義慶 撰 南朝宋 世说新语 刘义庆 文学小说 shishuo-xinyu">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">世說新語</h3>
+        <p class="card-author">[南朝宋] 劉義慶 撰</p>
+        <p class="card-meta">38 章 · 35,699 字 · EPUB 337 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/shishuo-xinyu/shishuo-xinyu.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/shishuo-xinyu/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/shishuo-xinyu.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="fiction" data-search="浮生六記 沈復 清 浮生六记 沈复 芸娘 文学小说 fusheng-liuji">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">文学小说</span>
+        </div>
+        <h3 class="card-title">浮生六記</h3>
+        <p class="card-author">[清] 沈復</p>
+        <p class="card-meta">6 章 · 9,428 字 · EPUB 99 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/fusheng-liuji/fusheng-liuji.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/fusheng-liuji/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/fusheng-liuji.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="ji" data-search="楚辭 屈原 等 戰國 楚辞 songs of chu 集部 chuci">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">集部</span>
+        </div>
+        <h3 class="card-title">楚辭</h3>
+        <p class="card-author">[戰國] 屈原 等</p>
+        <p class="card-meta">17 章 · 4,679 字 · EPUB 63 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/chuci/chuci.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/chuci/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/chuci.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="ji" data-search="文心雕龍 劉勰 南朝梁 文心雕龙 the literary mind and the carving of dragons 集部 wenxin-diaolong">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">集部</span>
+        </div>
+        <h3 class="card-title">文心雕龍</h3>
+        <p class="card-author">[南朝梁] 劉勰</p>
+        <p class="card-meta">50 章 · 8,316 字 · EPUB 112 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/wenxin-diaolong/wenxin-diaolong.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/wenxin-diaolong/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/wenxin-diaolong.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="ji" data-search="唐詩三百首 蘅塘退士 編 清 唐诗三百首 three hundred tang poems 集部 tangshi-sanbaishou">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">集部</span>
+        </div>
+        <h3 class="card-title">唐詩三百首</h3>
+        <p class="card-author">[清] 蘅塘退士 編</p>
+        <p class="card-meta">1 章 · 361 字 · EPUB 8 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/tangshi-sanbaishou/tangshi-sanbaishou.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/tangshi-sanbaishou/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/tangshi-sanbaishou.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="ji" data-search="宋詞三百首 上彊村民 編 清末 宋词三百首 上彊村民 集部 songci-sanbaishou">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">集部</span>
+        </div>
+        <h3 class="card-title">宋詞三百首</h3>
+        <p class="card-author">[清末] 上彊村民 編</p>
+        <p class="card-meta">1 章 · 5,800 字 · EPUB 55 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/songci-sanbaishou/songci-sanbaishou.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/songci-sanbaishou/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/songci-sanbaishou.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="論語 孔子弟子及再傳弟子 春秋 论语 the analects 經部 lunyu">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">論語</h3>
+        <p class="card-author">[春秋] 孔子弟子及再傳弟子</p>
+        <p class="card-meta">20 章 · 4,114 字 · EPUB 42 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/lunyu/lunyu.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/lunyu/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/lunyu.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="孟子 孟軻及其弟子 戰國 mencius 經部 mengzi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">孟子</h3>
+        <p class="card-author">[戰國] 孟軻及其弟子</p>
+        <p class="card-meta">14 章 · 7,533 字 · EPUB 69 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/mengzi/mengzi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/mengzi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/mengzi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="周易 姬昌 等 周 易經 易经 i ching book of changes 經部 zhouyi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">周易</h3>
+        <p class="card-author">[周] 姬昌 等</p>
+        <p class="card-meta">73 章 · 8,760 字 · EPUB 93 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/zhouyi/zhouyi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/zhouyi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/zhouyi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="尚書 佚名 先秦 尚书 書經 书经 classic of history 經部 shangshu">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">尚書</h3>
+        <p class="card-author">[先秦] 佚名</p>
+        <p class="card-meta">69 章 · 8,345 字 · EPUB 101 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/shangshu/shangshu.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/shangshu/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/shangshu.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="詩經 佚名 先秦 诗经 毛詩 classic of poetry book of songs 經部 shijing">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">詩經</h3>
+        <p class="card-author">[先秦] 佚名</p>
+        <p class="card-meta">311 章 · 12,689 字 · EPUB 256 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/shijing/shijing.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/shijing/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/shijing.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="禮記 戴聖 編 漢 礼记 小戴礼记 classic of rites 經部 liji">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">禮記</h3>
+        <p class="card-author">[漢] 戴聖 編</p>
+        <p class="card-meta">49 章 · 22,558 字 · EPUB 186 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/liji/liji.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/liji/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/liji.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="春秋左氏傳 左丘明 春秋戰國 左传 左氏春秋 zuo zhuan 經部 zuozhuan">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">春秋左氏傳</h3>
+        <p class="card-author">[春秋戰國] 左丘明</p>
+        <p class="card-meta">14 章 · 93,973 字 · EPUB 640 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/zuozhuan/zuozhuan.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/zuozhuan/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/zuozhuan.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="jing" data-search="孝經 曾子門人 先秦 孝经 classic of filial piety 經部 xiaojing">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">經部</span>
+        </div>
+        <h3 class="card-title">孝經</h3>
+        <p class="card-author">[先秦] 曾子門人</p>
+        <p class="card-meta">1 章 · 417 字 · EPUB 7 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/xiaojing/xiaojing.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/xiaojing/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/xiaojing.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="shi" data-search="史記 司馬遷 西漢 史记 太史公书 records of the grand historian 史部 shiji">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">史部</span>
+        </div>
+        <h3 class="card-title">史記</h3>
+        <p class="card-author">[西漢] 司馬遷</p>
+        <p class="card-meta">130 章 · 106,865 字 · EPUB 973 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/shiji/shiji.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/shiji/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/shiji.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="shi" data-search="戰國策 劉向 編 西漢 战国策 strategies of the warring states 史部 zhanguoce">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">史部</span>
+        </div>
+        <h3 class="card-title">戰國策</h3>
+        <p class="card-author">[西漢] 劉向 編</p>
+        <p class="card-meta">40 章 · 92,859 字 · EPUB 601 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/zhanguoce/zhanguoce.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/zhanguoce/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/zhanguoce.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="shi" data-search="山海經 佚名 先秦 山海经 classic of mountains and seas 史部 shanhaijing">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">史部</span>
+        </div>
+        <h3 class="card-title">山海經</h3>
+        <p class="card-author">[先秦] 佚名</p>
+        <p class="card-meta">19 章 · 8,297 字 · EPUB 66 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/shanhaijing/shanhaijing.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/shanhaijing/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/shanhaijing.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="莊子 莊周 戰國 庄子 南華真經 zhuangzi 子部 zhuangzi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">莊子</h3>
+        <p class="card-author">[戰國] 莊周</p>
+        <p class="card-meta">33 章 · 13,766 字 · EPUB 133 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/zhuangzi/zhuangzi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/zhuangzi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/zhuangzi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="道德經 李耳 春秋 道德经 老子 tao te ching 子部 daodejing">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">道德經</h3>
+        <p class="card-author">[春秋] 李耳</p>
+        <p class="card-meta">1 章 · 1,219 字 · EPUB 12 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/daodejing/daodejing.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/daodejing/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/daodejing.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="孫子兵法 孫武 春秋 孙子兵法 the art of war 孙武 子部 sunzi-bingfa">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">孫子兵法</h3>
+        <p class="card-author">[春秋] 孫武</p>
+        <p class="card-meta">1 章 · 116 字 · EPUB 14 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/sunzi-bingfa/sunzi-bingfa.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/sunzi-bingfa/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/sunzi-bingfa.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="荀子 荀況 戰國 荀子 xunzi 子部 xunzi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">荀子</h3>
+        <p class="card-author">[戰國] 荀況</p>
+        <p class="card-meta">33 章 · 23,927 字 · EPUB 206 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/xunzi/xunzi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/xunzi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/xunzi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="韓非子 韓非 戰國 韩非子 han feizi 子部 hanfeizi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">韓非子</h3>
+        <p class="card-author">[戰國] 韓非</p>
+        <p class="card-meta">75 章 · 39,752 字 · EPUB 388 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/hanfeizi/hanfeizi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/hanfeizi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/hanfeizi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="墨子 墨子及其後學 戰國 墨子 mozi 子部 mozi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">墨子</h3>
+        <p class="card-author">[戰國] 墨子及其後學</p>
+        <p class="card-meta">54 章 · 29,381 字 · EPUB 250 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/mozi/mozi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/mozi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/mozi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="管子 管仲及其後學 先秦 管子 管仲 guanzi 子部 guanzi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">管子</h3>
+        <p class="card-author">[先秦] 管仲及其後學</p>
+        <p class="card-meta">80 章 · 25,497 字 · EPUB 246 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/guanzi/guanzi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/guanzi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/guanzi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+      <article class="card" data-lang="zh-Hant" data-cat="zi" data-search="列子 列禦寇 戰國 列子 冲虚真经 liezi 子部 liezi">
+        <div class="card-header">
+          <span class="badge badge-lang">繁體中文</span>
+          <span class="badge badge-cat">子部</span>
+        </div>
+        <h3 class="card-title">列子</h3>
+        <p class="card-author">[戰國] 列禦寇</p>
+        <p class="card-meta">8 章 · 6,185 字 · EPUB 60 KB</p>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="books/liezi/liezi.epub" download>📥 下載 EPUB</a>
+          <a class="btn btn-secondary" href="books/liezi/chapters/0001.xhtml" target="_blank">📖 在線閱讀</a>
+          <a class="btn btn-outline" href="opds/book/liezi.xml" target="_blank">OPDS</a>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>本站典籍正文均屬公有領域（Public Domain）· 遵循 CC BY-SA 4.0 許可協議</p>
+      <p style="margin-top: 0.35rem;">由 清風閱讀 (Brisa Reader) 驅動 · 更新於 2026-10-28T03:52:44Z</p>
+    </footer>
+  </div>
+
+  <script>
+    function copyText(id, btn) {
+      const text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const oldText = btn.innerText;
+        btn.innerText = '已複製！';
+        setTimeout(() => btn.innerText = oldText, 2000);
+      });
+    }
+
+    const searchInput = document.getElementById('searchInput');
+    const pills = document.querySelectorAll('.pill');
+    const cards = document.querySelectorAll('.card');
+
+    let currentFilter = 'all';
+    let searchQuery = '';
+
+    function updateVisibility() {
+      const query = searchQuery.trim().toLowerCase();
+      cards.forEach(card => {
+        const lang = card.dataset.lang;
+        const cat = card.dataset.cat;
+        const searchCorpus = card.dataset.search;
+
+        const matchFilter = (currentFilter === 'all') ||
+                            (currentFilter === lang) ||
+                            (currentFilter === cat);
+        const matchSearch = !query || searchCorpus.includes(query);
+
+        card.style.display = (matchFilter && matchSearch) ? 'flex' : 'none';
+      });
+    }
+
+    searchInput.addEventListener('input', e => {
+      searchQuery = e.target.value;
+      updateVisibility();
+    });
+
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        pills.forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        currentFilter = pill.dataset.filter;
+        updateVisibility();
+      });
+    });
+  </script>
+</body>
+</html>

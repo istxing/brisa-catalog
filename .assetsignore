@@ -1,0 +1,6 @@
+.git
+.git/**
+**/.git/**
+.gitignore
+.assetsignore
+README.md

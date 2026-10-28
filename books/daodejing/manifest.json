@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "id": "daodejing",
+ "title": "道德經",
+ "aliases": [
+  "道德经",
+  "老子",
+  "Tao Te Ching"
+ ],
+ "author": "李耳",
+ "dynasty": "春秋",
+ "category": "zi",
+ "subcategory": "道家",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:42:32Z",
+ "content_hash": "ef3630b2c2c149d7f60f3482c94e14c488f3baabc197bbbdc10997044be80a0f",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "老子_(匯校版)",
+  "url": "https://zh.wikisource.org/wiki/%E8%80%81%E5%AD%90_%28%E5%8C%AF%E6%A0%A1%E7%89%88%29"
+ },
+ "chars": 5557,
+ "words": 1219,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "道德經",
+   "path": "chapters/0001.xhtml",
+   "chars": 5557,
+   "words": 1219,
+   "bytes": 22249,
+   "sha256": "d49256b85a7a13d45ac954bf8642991e4add181369d7e47a460aab1d4b851cd2",
+   "source": "老子_(匯校版)",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "daodejing.epub",
+  "bytes": 13155,
+  "sha256": "93c5d4fca3516f6b90002e90b83d9dfb2e683f389b9b774108af41489b13d714"
+ }
+}

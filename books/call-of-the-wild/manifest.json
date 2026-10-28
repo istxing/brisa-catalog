@@ -1,0 +1,118 @@
+{
+ "schema": 2,
+ "id": "call-of-the-wild",
+ "title": "The Call of the Wild",
+ "aliases": [
+  "野性的呼唤",
+  "杰克伦敦"
+ ],
+ "author": "Jack London",
+ "dynasty": "1903",
+ "category": "fiction",
+ "subcategory": "Literature",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:40Z",
+ "content_hash": "07cbc8b193f6378eaeef8afd5d15d52e266fbe11482ef16572031b92c63216f5",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The Call of the Wild (London)",
+  "url": "https://en.wikisource.org/wiki/The_Call_of_the_Wild_%28London%29"
+ },
+ "chars": 138009,
+ "words": 31833,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Into the Primitive",
+   "path": "chapters/0001.xhtml",
+   "chars": 16105,
+   "words": 3738,
+   "bytes": 21308,
+   "sha256": "25e3a6de28ebe991642015b63a07e375ad03b0ea90038604eaf8813256033be6",
+   "source": "The Call of the Wild (London)/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "The Law of Club and Fang",
+   "path": "chapters/0002.xhtml",
+   "chars": 14464,
+   "words": 3317,
+   "bytes": 18895,
+   "sha256": "1b613c8c03a2429a3bc360af26451ecd3c6679b1f43d51dbed65901a72acc842",
+   "source": "The Call of the Wild (London)/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "The Dominant Primordial Beast",
+   "path": "chapters/0003.xhtml",
+   "chars": 22452,
+   "words": 5171,
+   "bytes": 29180,
+   "sha256": "0be0ebf71daf64ac38444a001285c1a17350c6ca4651fd88ed85176f1f69ea8c",
+   "source": "The Call of the Wild (London)/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "Who has won to Mastership",
+   "path": "chapters/0004.xhtml",
+   "chars": 13722,
+   "words": 3225,
+   "bytes": 18188,
+   "sha256": "e9d167d358b769aa6ebb49885a37ec09ece6fd012d5b504496f45189a8a8cbe6",
+   "source": "The Call of the Wild (London)/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "The Toil of Trace and Trail",
+   "path": "chapters/0005.xhtml",
+   "chars": 23260,
+   "words": 5356,
+   "bytes": 30543,
+   "sha256": "95672960925cb2e17348b67e6aef995f8d7cb8ea9b9709523c1b5a27fb202382",
+   "source": "The Call of the Wild (London)/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "For the Love of a Man",
+   "path": "chapters/0006.xhtml",
+   "chars": 20760,
+   "words": 4758,
+   "bytes": 27274,
+   "sha256": "c7883849ef7935b32df9aa79d4754f2c28d2ee9e2805e069a1e7d7d40734ac9e",
+   "source": "The Call of the Wild (London)/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "The Sounding of the Call",
+   "path": "chapters/0007.xhtml",
+   "chars": 27246,
+   "words": 6268,
+   "bytes": 35195,
+   "sha256": "4b27c7908984b06a033393e9be63c40d4d373760d588a520f0a245062df43584",
+   "source": "The Call of the Wild (London)/Chapter 7",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "call-of-the-wild.epub",
+  "bytes": 79199,
+  "sha256": "cdca604c3d583ba0597a433b4c4adca1ff3356a1cb7864c15035c1a912653832"
+ }
+}

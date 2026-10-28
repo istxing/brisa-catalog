@@ -1,0 +1,228 @@
+{
+ "schema": 2,
+ "id": "chuci",
+ "title": "楚辭",
+ "aliases": [
+  "楚辞",
+  "Songs of Chu"
+ ],
+ "author": "屈原 等",
+ "dynasty": "戰國",
+ "category": "ji",
+ "subcategory": "楚辭類",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:22Z",
+ "content_hash": "484cf634955708984c8588a48fc3cf8e499eb0db6b16b8b9cea15758445d4302",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "楚辭",
+  "url": "https://zh.wikisource.org/wiki/%E6%A5%9A%E8%BE%AD"
+ },
+ "chars": 27058,
+ "words": 4679,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "楚辭卷第一",
+   "path": "chapters/0001.xhtml",
+   "chars": 2485,
+   "words": 387,
+   "bytes": 9948,
+   "sha256": "09ecb207612ffea498e6584553de5af40a210203d41a1df8eb22aa8e231b8c6d",
+   "source": "離騷",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "楚辭卷第二",
+   "path": "chapters/0002.xhtml",
+   "chars": 1578,
+   "words": 253,
+   "bytes": 6650,
+   "sha256": "bcce26eb18609d1b15a46385e0bfc9af3a27b35180e0926d1650be60601938fd",
+   "source": "九歌",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "楚辭卷第三",
+   "path": "chapters/0003.xhtml",
+   "chars": 1587,
+   "words": 388,
+   "bytes": 6387,
+   "sha256": "1e785d17cc942ffe341c43c3f447eb3807d85647437ceee77f65fdd1063e2eb9",
+   "source": "天問",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "楚辭卷第四",
+   "path": "chapters/0004.xhtml",
+   "chars": 4098,
+   "words": 677,
+   "bytes": 15073,
+   "sha256": "535887f1eb7bb83ebeff05400dae5803e351e0510bdc6c7c3f2c0b8e8a18c4bd",
+   "source": "九章",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "楚辭卷第五",
+   "path": "chapters/0005.xhtml",
+   "chars": 1138,
+   "words": 180,
+   "bytes": 4417,
+   "sha256": "95f6b8faad934049b95139b0fb94a4802e4adcb1def404eff00336434b92ae5e",
+   "source": "楚辭/遠遊",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "楚辭卷第六",
+   "path": "chapters/0006.xhtml",
+   "chars": 319,
+   "words": 64,
+   "bytes": 1570,
+   "sha256": "fdda0f895d31b55011630227ca99dcf16b04fb7e4befb6f95fda56dd154bfa3d",
+   "source": "卜居 (屈原)",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "楚辭卷第七",
+   "path": "chapters/0007.xhtml",
+   "chars": 210,
+   "words": 40,
+   "bytes": 1177,
+   "sha256": "4cbfde01deeb69b2eb0b7b9d10997b2daa7732f2fdecb99d8be0ce324113ee7d",
+   "source": "漁父",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "楚辭卷第八",
+   "path": "chapters/0008.xhtml",
+   "chars": 1746,
+   "words": 266,
+   "bytes": 6518,
+   "sha256": "de316f54c8653b6d71133d8c50175d365b5483db08275920e02939c6fcccea5a",
+   "source": "九辯",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "楚辭卷第九",
+   "path": "chapters/0009.xhtml",
+   "chars": 1204,
+   "words": 267,
+   "bytes": 4862,
+   "sha256": "dd0b2f3bbc1ca8667f7fe049090244539edfef230d57f4dbcfb817195e7564fc",
+   "source": "招䰟",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "楚辭卷第十",
+   "path": "chapters/0010.xhtml",
+   "chars": 888,
+   "words": 220,
+   "bytes": 3758,
+   "sha256": "e1cd29e703ae85404e6cf7931b0f081148c29d2c23e0e37ce2661c15ff93f36b",
+   "source": "大招",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "楚辭卷第十一",
+   "path": "chapters/0011.xhtml",
+   "chars": 505,
+   "words": 75,
+   "bytes": 2143,
+   "sha256": "bbd7ddfc739fd2e227bf2b3e0eaa693e7354bff9d0d96452d9bd7108693b16c0",
+   "source": "惜誓",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "楚辭卷第十二",
+   "path": "chapters/0012.xhtml",
+   "chars": 195,
+   "words": 30,
+   "bytes": 1079,
+   "sha256": "e73d859b30f5a87a50ac4e5d1916b0203bb01a4ec67b5243ea6bb3466222fd8b",
+   "source": "招隱士",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "楚辭卷第十三",
+   "path": "chapters/0013.xhtml",
+   "chars": 2669,
+   "words": 413,
+   "bytes": 9834,
+   "sha256": "cb8e4a8774e1af1429c228b6f1257a59b65161026fcb2ddf2ad3f3753aae7107",
+   "source": "七諫",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "楚辭卷第十四",
+   "path": "chapters/0014.xhtml",
+   "chars": 1073,
+   "words": 160,
+   "bytes": 4131,
+   "sha256": "402f676485b1d186f544cb85d44c80cc38b7e92d55c3091f8ad52942446ee696",
+   "source": "哀時命",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "楚辭卷第十五",
+   "path": "chapters/0015.xhtml",
+   "chars": 1428,
+   "words": 260,
+   "bytes": 5613,
+   "sha256": "a634ad6587f7cee585631b7d6bc40fd944174a916ab9faa71b241d719c506231",
+   "source": "九懷",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "楚辭卷第十六",
+   "path": "chapters/0016.xhtml",
+   "chars": 3815,
+   "words": 631,
+   "bytes": 14023,
+   "sha256": "bc4cfb102e5c196c0a268831fd1263fc3a4b2d0bfc18f4cbfc4aed4296992ea1",
+   "source": "九歎",
+   "source_revid": 1
+  },
+  {
+   "index": 17,
+   "title": "楚辭卷第十七",
+   "path": "chapters/0017.xhtml",
+   "chars": 2120,
+   "words": 368,
+   "bytes": 8019,
+   "sha256": "d6cbd49bd00a72fde25ceac534eb50945f22da0c8a6940929da27118e2f9dbed",
+   "source": "九思",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "chuci.epub",
+  "bytes": 65425,
+  "sha256": "ed717bd4aa3596e44770db6cd16d65efafd1014955688811a60305490e7e4d78"
+ }
+}

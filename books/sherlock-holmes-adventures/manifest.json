@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "id": "sherlock-holmes-adventures",
+ "title": "The Adventures of Sherlock Holmes",
+ "aliases": [
+  "福尔摩斯探案集",
+  "福尔摩斯冒险史"
+ ],
+ "author": "Arthur Conan Doyle",
+ "dynasty": "1892",
+ "category": "fiction",
+ "subcategory": "Mystery",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:31Z",
+ "content_hash": "15f7a32496331f5f2fb2eefe640045cdef5a4938188d90fe4e18b0b624a3708c",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The_Adventures_of_Sherlock_Holmes_(1892,_US)",
+  "url": "https://en.wikisource.org/wiki/The_Adventures_of_Sherlock_Holmes_%281892%2C_US%29"
+ },
+ "chars": 431762,
+ "words": 104662,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "A SCANDAL IN BOHEMIA",
+   "path": "chapters/0001.xhtml",
+   "chars": 35597,
+   "words": 8542,
+   "bytes": 48478,
+   "sha256": "73d1112288c03ca94b58d72a0731974f15388edb1885438903f34866388d28a9",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/A Scandal in Bohemia",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "THE RED-HEADED LEAGUE",
+   "path": "chapters/0002.xhtml",
+   "chars": 37809,
+   "words": 9121,
+   "bytes": 51117,
+   "sha256": "a2e8fa0bf822590f08ba590df3403fba9b57e27b1c082f3f81fa8200977b693f",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Red-Headed League",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "A CASE OF IDENTITY",
+   "path": "chapters/0003.xhtml",
+   "chars": 29314,
+   "words": 7007,
+   "bytes": 39339,
+   "sha256": "17c994788bb36662fed943cb3db908792507e39dbda487f150c6c5867b185d64",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/A Case of Identity",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "THE BOSCOMBE VALLEY MYSTERY",
+   "path": "chapters/0004.xhtml",
+   "chars": 39630,
+   "words": 9642,
+   "bytes": 53283,
+   "sha256": "214851a1c23192b5636fcc0b2ec0be21124df49efd6cc968dfcbd47d01397449",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Boscombe Valley Mystery",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "THE FIVE ORANGE PIPS",
+   "path": "chapters/0005.xhtml",
+   "chars": 30401,
+   "words": 7343,
+   "bytes": 41063,
+   "sha256": "1265d8fcfdae55085f1a2e3c0c478ee86b9277952e11856e5b2a335820a178e7",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Five Orange Pips",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "THE MAN WITH THE TWISTED LIP",
+   "path": "chapters/0006.xhtml",
+   "chars": 37772,
+   "words": 9237,
+   "bytes": 51121,
+   "sha256": "6b9573725a1500345d574e3d12238bd84e6216b7a3b566310cb58a7725ee01ec",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Man with the Twisted Lip",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "THE ADVENTURE OF THE BLUE CARBUNCLE",
+   "path": "chapters/0007.xhtml",
+   "chars": 32154,
+   "words": 7823,
+   "bytes": 43968,
+   "sha256": "f885b64d2d23abedd7a291230c4c3e3081a186e738506836fad89e1fddae47f6",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Adventure of the Blue Carbuncle",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "THE ADVENTURE OF THE SPECKLED BAND",
+   "path": "chapters/0008.xhtml",
+   "chars": 40895,
+   "words": 9824,
+   "bytes": 55049,
+   "sha256": "d5f9ea46fd26a5e7267b63d055aff9f55e3b8ae65fbf311f38fa7e76b38518e7",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Adventure of the Speckled Band",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "THE ADVENTURE OF THE ENGINEER'S THUMB",
+   "path": "chapters/0009.xhtml",
+   "chars": 34412,
+   "words": 8298,
+   "bytes": 46261,
+   "sha256": "b1a3cb47ae9e619e8ea41f3e2b3dafd345a43ba8bafa9f1a4596b77446178bf7",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Adventure of the Engineer's Thumb",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "THE ADVENTURE OF THE NOBLE BACHELOR",
+   "path": "chapters/0010.xhtml",
+   "chars": 33877,
+   "words": 8144,
+   "bytes": 46012,
+   "sha256": "fba0bd5ae5d53c7dfb6cde55256bf019db4c6586c7f7f52cb175ae4ddb3a69f1",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Adventure of the Noble Bachelor",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "THE ADVENTURE OF THE BERYL CORONET",
+   "path": "chapters/0011.xhtml",
+   "chars": 39096,
+   "words": 9707,
+   "bytes": 52919,
+   "sha256": "473a67681332f4a69365c901d5633cca01fa9479f346793906f8d65874a2cbd6",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Adventure of the Beryl Coronet",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "THE ADVENTURE OF THE COPPER BEECHES",
+   "path": "chapters/0012.xhtml",
+   "chars": 40805,
+   "words": 9974,
+   "bytes": 54962,
+   "sha256": "eda8b0f25178293ccbb650c1068edaaa3cbe060ca355cc0b68031fc89c337988",
+   "source": "The Adventures of Sherlock Holmes (1892, US)/The Adventure of the Copper Beeches",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "sherlock-holmes-adventures.epub",
+  "bytes": 235079,
+  "sha256": "0e630e87a4d0ad4de575411ff996c619df2e1ec0bf8b01633d367682201ad5fb"
+ }
+}

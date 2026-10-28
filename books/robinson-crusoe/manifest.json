@@ -1,0 +1,261 @@
+{
+ "schema": 2,
+ "id": "robinson-crusoe",
+ "title": "Robinson Crusoe",
+ "aliases": [
+  "鲁滨逊漂流记",
+  "笛福"
+ ],
+ "author": "Daniel Defoe",
+ "dynasty": "1719",
+ "category": "fiction",
+ "subcategory": "Adventure",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:34Z",
+ "content_hash": "1cf2d03a7d86e6d05cf9b4a4e401a9cb50df81a08aca6df817552ef1656127a3",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "Robinson Crusoe (unsourced)",
+  "url": "https://en.wikisource.org/wiki/Robinson_Crusoe_%28unsourced%29"
+ },
+ "chars": 480015,
+ "words": 121052,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Start in Life",
+   "path": "chapters/0001.xhtml",
+   "chars": 21240,
+   "words": 5244,
+   "bytes": 27916,
+   "sha256": "d9c196cac812a8b7c57d9ab307a84cd8f98cce741b980a12b9e416aef7fb1f18",
+   "source": "Robinson Crusoe (unsourced)/Start in Life",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "Slavery and Escape",
+   "path": "chapters/0002.xhtml",
+   "chars": 20444,
+   "words": 5186,
+   "bytes": 27194,
+   "sha256": "1e55ccb0ef41f5584effc076b5395591bf340c19eccd683838754809b7733ecb",
+   "source": "Robinson Crusoe (unsourced)/Slavery and Escape",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "Wrecked on a Desert Island",
+   "path": "chapters/0003.xhtml",
+   "chars": 30453,
+   "words": 7616,
+   "bytes": 40045,
+   "sha256": "6ccfb8ea6fcbe908f88122a0f1e878b60d69ef2f22821150b2a127ac07661175",
+   "source": "Robinson Crusoe (unsourced)/Wrecked on a Desert Island",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "First Weeks on the Island",
+   "path": "chapters/0004.xhtml",
+   "chars": 34573,
+   "words": 8907,
+   "bytes": 45825,
+   "sha256": "a94f9537b3ba02ad588d708f0b793349ad9df3b57ab3677a2af42698f3c097c8",
+   "source": "Robinson Crusoe (unsourced)/First Weeks on the Island",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "Build a House - The Journal",
+   "path": "chapters/0005.xhtml",
+   "chars": 21379,
+   "words": 5442,
+   "bytes": 28599,
+   "sha256": "38d37916adbee32ec2d729e01ef1925a617b158d51561021bbc96d628ef680fd",
+   "source": "Robinson Crusoe (unsourced)/Build a House - The Journal",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "Ill and Conscience-stricken",
+   "path": "chapters/0006.xhtml",
+   "chars": 22387,
+   "words": 5664,
+   "bytes": 29750,
+   "sha256": "a8e62859034f2f9401ea367f2490da86ba3170dda033bda2782fcdb9fee2cf57",
+   "source": "Robinson Crusoe (unsourced)/Ill and Conscience-stricken",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "Agricultural Experiment",
+   "path": "chapters/0007.xhtml",
+   "chars": 15626,
+   "words": 3908,
+   "bytes": 20668,
+   "sha256": "a538bb9cbb57f66097373bfbe3db2ff194bea32b8d40d196a5a053cbdecbcbe1",
+   "source": "Robinson Crusoe (unsourced)/Agricultural Experiment",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "Surveys his Position",
+   "path": "chapters/0008.xhtml",
+   "chars": 17029,
+   "words": 4365,
+   "bytes": 22643,
+   "sha256": "c4843299cd26b54b5c77b880433270f020805451e21800e41fe5e6d5f31d13df",
+   "source": "Robinson Crusoe (unsourced)/Surveys his Position",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "A Boat",
+   "path": "chapters/0009.xhtml",
+   "chars": 26940,
+   "words": 6989,
+   "bytes": 35639,
+   "sha256": "7fa51de0a9925559f9ef0ca7dc86d264d3d9c53b9fc79ec3820ca52f26174bf7",
+   "source": "Robinson Crusoe (unsourced)/A Boat",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "Tames Goats",
+   "path": "chapters/0010.xhtml",
+   "chars": 19129,
+   "words": 4988,
+   "bytes": 25511,
+   "sha256": "726cb95dcdfca8f89bbf149b8f4193aaf56a6a28bea93162f6c6dc711dd4890e",
+   "source": "Robinson Crusoe (unsourced)/Tames Goats",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "Finds Print of Man's Foot on the Sand",
+   "path": "chapters/0011.xhtml",
+   "chars": 22350,
+   "words": 5557,
+   "bytes": 29337,
+   "sha256": "d804798fd6dfe2f231d18cb0ec58c232de79dc8e835259b3a7afea0cbc3c59d3",
+   "source": "Robinson Crusoe (unsourced)/Finds Print of Man's Foot on the Sand",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "A Cave Retreat",
+   "path": "chapters/0012.xhtml",
+   "chars": 28762,
+   "words": 7075,
+   "bytes": 37314,
+   "sha256": "dcc52ae92a51edc05274b20790b3cbdb9190e9eeaa713aa6338ded2808e6907a",
+   "source": "Robinson Crusoe (unsourced)/A Cave Retreat",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "Wreck of a Spanish Ship",
+   "path": "chapters/0013.xhtml",
+   "chars": 22003,
+   "words": 5560,
+   "bytes": 28902,
+   "sha256": "5452cd3dc00ec3e6eaf2b1af6b817217d1e2e525fa97bdb93395f06f9a5f4fcb",
+   "source": "Robinson Crusoe (unsourced)/Wreck of a Spanish Ship",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "A Dream Realized",
+   "path": "chapters/0014.xhtml",
+   "chars": 27378,
+   "words": 6813,
+   "bytes": 35720,
+   "sha256": "09fdaa19fad021e4f0eb17761389861fd1f6c07737f25924ff6419bd8252b6bc",
+   "source": "Robinson Crusoe (unsourced)/A Dream Realized",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "Friday's Education",
+   "path": "chapters/0015.xhtml",
+   "chars": 24364,
+   "words": 6209,
+   "bytes": 32516,
+   "sha256": "755322b347553c9f7d92228ed431c4f14e32161160e121c1eea99481fb740d88",
+   "source": "Robinson Crusoe (unsourced)/Friday's Education",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "Rescue of Prisoners from Cannibals",
+   "path": "chapters/0016.xhtml",
+   "chars": 27359,
+   "words": 7096,
+   "bytes": 36497,
+   "sha256": "f6aeee7b361ebd417139d79125e3bdf9d26d615e4462f15955e9b0589f02c8ce",
+   "source": "Robinson Crusoe (unsourced)/Rescue of Prisoners from Cannibals",
+   "source_revid": 1
+  },
+  {
+   "index": 17,
+   "title": "Visit of Mutineers",
+   "path": "chapters/0017.xhtml",
+   "chars": 25809,
+   "words": 6378,
+   "bytes": 33943,
+   "sha256": "561eb24b0f35da7eea94a0f7b234b8b386280b55d319c84290073624fb6c85e8",
+   "source": "Robinson Crusoe (unsourced)/Visit of Mutineers",
+   "source_revid": 1
+  },
+  {
+   "index": 18,
+   "title": "The Ship Recovered",
+   "path": "chapters/0018.xhtml",
+   "chars": 27694,
+   "words": 6900,
+   "bytes": 36347,
+   "sha256": "484b444a8058da5149139d9e8c823b98adff740afb2e0a63f764a751a8b1fb24",
+   "source": "Robinson Crusoe (unsourced)/The Ship Recovered",
+   "source_revid": 1
+  },
+  {
+   "index": 19,
+   "title": "Return to England",
+   "path": "chapters/0019.xhtml",
+   "chars": 24816,
+   "words": 6086,
+   "bytes": 32482,
+   "sha256": "cb451a7d25d8b456e3e6992e28d54ec55e4e16753208e21a9b87a0abc19afa87",
+   "source": "Robinson Crusoe (unsourced)/Return to England",
+   "source_revid": 1
+  },
+  {
+   "index": 20,
+   "title": "Fight Between Friday and a Bear",
+   "path": "chapters/0020.xhtml",
+   "chars": 20280,
+   "words": 5069,
+   "bytes": 28255,
+   "sha256": "05aeea54c15bd2277d9c6e689e1407bb856e6935a3c2add80bb70e0763507e79",
+   "source": "Robinson Crusoe (unsourced)/Fight Between Friday and a Bear",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "robinson-crusoe.epub",
+  "bytes": 250832,
+  "sha256": "5cd8d59251c91bd31c357b90021e80e0fabdf893f178d72ac38172d5a58bf8bc"
+ }
+}

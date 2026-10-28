@@ -1,0 +1,194 @@
+{
+ "schema": 2,
+ "id": "mengzi",
+ "title": "孟子",
+ "aliases": [
+  "Mencius"
+ ],
+ "author": "孟軻及其弟子",
+ "dynasty": "戰國",
+ "category": "jing",
+ "subcategory": "四書",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:42:29Z",
+ "content_hash": "4739a6a4a923cef88ab783f341021e41283c4b66a61cce3501433605ef05d19b",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "孟子",
+  "url": "https://zh.wikisource.org/wiki/%E5%AD%9F%E5%AD%90"
+ },
+ "chars": 35855,
+ "words": 7533,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "梁惠王上",
+   "path": "chapters/0001.xhtml",
+   "chars": 2448,
+   "words": 502,
+   "bytes": 10168,
+   "sha256": "5a49d5eec45c371d5aaa32340406e515394163417d567c389a7d0e944ef8abd1",
+   "source": "孟子/梁惠王上",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "梁惠王下",
+   "path": "chapters/0002.xhtml",
+   "chars": 2950,
+   "words": 632,
+   "bytes": 12395,
+   "sha256": "11b68053781d7979a4bfac0d519d97812322684594c28b56620289c00287d1fc",
+   "source": "孟子/梁惠王下",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "公孫丑上",
+   "path": "chapters/0003.xhtml",
+   "chars": 2697,
+   "words": 563,
+   "bytes": 10980,
+   "sha256": "3b3900bd77a2e4876c69edc1c98f1c1ab1a0bbf36dffff8e49c59439997cf73b",
+   "source": "孟子/公孫丑上",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "公孫丑下",
+   "path": "chapters/0004.xhtml",
+   "chars": 2472,
+   "words": 498,
+   "bytes": 10330,
+   "sha256": "e86b2efb6dbbe35e1f8cd662902d5de330b7defa794e859e67ec62628793ed4e",
+   "source": "孟子/公孫丑下",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "滕文公上",
+   "path": "chapters/0005.xhtml",
+   "chars": 2512,
+   "words": 514,
+   "bytes": 10327,
+   "sha256": "c2429de4cc33bc47b6e41f5f3e27d1b8a19d6cd7764e1dbb4dcf89e7c052f336",
+   "source": "孟子/滕文公上",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "滕文公下",
+   "path": "chapters/0006.xhtml",
+   "chars": 2571,
+   "words": 561,
+   "bytes": 10670,
+   "sha256": "3eaaced00119654f7f96aa82c578b89eaed7674cf843ef6c1dc07f14fc68a9a4",
+   "source": "孟子/滕文公下",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "離婁上",
+   "path": "chapters/0007.xhtml",
+   "chars": 2451,
+   "words": 531,
+   "bytes": 10249,
+   "sha256": "f21b50698e0d363e62017bb264d81a65491d4d63d296dbbc5420d5883431a8bc",
+   "source": "孟子/離婁上",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "離婁下",
+   "path": "chapters/0008.xhtml",
+   "chars": 2422,
+   "words": 502,
+   "bytes": 10102,
+   "sha256": "13d64f070f4e9f4d9b8e755f73f60f30cfcd1c72734890c91d4e948ad758fa21",
+   "source": "孟子/離婁下",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "萬章上",
+   "path": "chapters/0009.xhtml",
+   "chars": 2691,
+   "words": 553,
+   "bytes": 10971,
+   "sha256": "7cbb32fdcb0191385c8cb50d9cc1bbf73753715efe3b04a17f2a0c60cfe02c62",
+   "source": "孟子/萬章上",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "萬章下",
+   "path": "chapters/0010.xhtml",
+   "chars": 2470,
+   "words": 533,
+   "bytes": 10403,
+   "sha256": "d75b612ed795d06f41178ca84a6a00cbcc3d875141960e3fdaa4e3c8b0f34025",
+   "source": "孟子/萬章下",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "告子上",
+   "path": "chapters/0011.xhtml",
+   "chars": 2674,
+   "words": 533,
+   "bytes": 10884,
+   "sha256": "ed115f730b22d512370b79759f140f26392804827627f4728de2a3fbd2ccba61",
+   "source": "孟子/告子上",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "告子下",
+   "path": "chapters/0012.xhtml",
+   "chars": 2644,
+   "words": 586,
+   "bytes": 11129,
+   "sha256": "43767e287184853229fea2f3386806f3c8e6fe18966bdd620d5cf05e2c767f3d",
+   "source": "孟子/告子下",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "盡心上",
+   "path": "chapters/0013.xhtml",
+   "chars": 2511,
+   "words": 519,
+   "bytes": 10722,
+   "sha256": "510c91a414415b5ece192662a236d99c5ad157f9c55b0e89da4238daa0d9f359",
+   "source": "孟子/盡心上",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "盡心下",
+   "path": "chapters/0014.xhtml",
+   "chars": 2342,
+   "words": 506,
+   "bytes": 10163,
+   "sha256": "80206f04399fd89b5d7cf127df769f2bb460d2c539e966470ec73f3348f3fc57",
+   "source": "孟子/盡心下",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "mengzi.epub",
+  "bytes": 71248,
+  "sha256": "44a160780314d6ee456bc22cec5e2112bc7690a8e46c99e2cbfa6d70396ef072"
+ }
+}

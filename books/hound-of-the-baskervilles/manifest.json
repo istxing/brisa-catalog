@@ -1,0 +1,206 @@
+{
+ "schema": 2,
+ "id": "hound-of-the-baskervilles",
+ "title": "The Hound of the Baskervilles",
+ "aliases": [
+  "巴斯克维尔的猎犬",
+  "巴斯克维尔猎犬"
+ ],
+ "author": "Arthur Conan Doyle",
+ "dynasty": "1902",
+ "category": "fiction",
+ "subcategory": "Mystery",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:32Z",
+ "content_hash": "6d9471379ab63fdf1352a9269b49d6a102c496a3ad3f0e3661fee0febf63e268",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The Hound of the Baskervilles (Newnes, 1902)",
+  "url": "https://en.wikisource.org/wiki/The_Hound_of_the_Baskervilles_%28Newnes%2C_1902%29"
+ },
+ "chars": 246142,
+ "words": 59730,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Mr. Sherlock Holmes",
+   "path": "chapters/0001.xhtml",
+   "chars": 9738,
+   "words": 2275,
+   "bytes": 13737,
+   "sha256": "601ca1a7aa0d16f941112279491831af55c3c492e759b3e59af3a975965db48a",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "The Curse of the Baskervilles",
+   "path": "chapters/0002.xhtml",
+   "chars": 16858,
+   "words": 3885,
+   "bytes": 22314,
+   "sha256": "d846602429fd0b577e99c9ce952437b1358821f8cbea8efbd323f45103ce8023",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "The Problem",
+   "path": "chapters/0003.xhtml",
+   "chars": 12134,
+   "words": 2917,
+   "bytes": 17591,
+   "sha256": "3a57ae200c9bfcc011a408248589eba9c96ae336127fca6b8191d16dc2571cb7",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "Sir Henry Baskerville",
+   "path": "chapters/0004.xhtml",
+   "chars": 16998,
+   "words": 4101,
+   "bytes": 24092,
+   "sha256": "d9da493729f51a5b58876a2826743bcd6e5d9f7de7ce3aaccb4fc4d93058e927",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "Three Broken Threads",
+   "path": "chapters/0005.xhtml",
+   "chars": 14113,
+   "words": 3480,
+   "bytes": 20611,
+   "sha256": "9463a91d1691102fd1884848f4a9dd6af90f14b411821766bdaed6c058421021",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "Baskerville Hall",
+   "path": "chapters/0006.xhtml",
+   "chars": 14792,
+   "words": 3521,
+   "bytes": 20160,
+   "sha256": "b765ff780b63096a920337bba6a2bec65ec9ac95824b06d0a10d8769d3b94cb9",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "The Stapletons of Merripit House",
+   "path": "chapters/0007.xhtml",
+   "chars": 20384,
+   "words": 5002,
+   "bytes": 28384,
+   "sha256": "907475b7797ce2a78602cb77be230945f1062d82a36d55471693dd2d0876fbc7",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 7",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "First Report of Dr. Watson",
+   "path": "chapters/0008.xhtml",
+   "chars": 11766,
+   "words": 2772,
+   "bytes": 15564,
+   "sha256": "6a42f7fba184b4263279518a7beb29dc23ffad53a6c8f86113aeca17582d4df0",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 8",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "Second Report of Dr. Watson",
+   "path": "chapters/0009.xhtml",
+   "chars": 26649,
+   "words": 6715,
+   "bytes": 36362,
+   "sha256": "17386ec637e4d4def0381443ef8c1e697f52f8609bf4d9a7e4537eba0d8ac42d",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 9",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "Extract from the Diary of Dr. Watson",
+   "path": "chapters/0010.xhtml",
+   "chars": 14563,
+   "words": 3715,
+   "bytes": 20452,
+   "sha256": "c6caeeabcdecf5302b9cd9cccce78190b617934c1b2979099b66207eb7b5256e",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 10",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "The Man on the Tor",
+   "path": "chapters/0011.xhtml",
+   "chars": 18911,
+   "words": 4607,
+   "bytes": 25980,
+   "sha256": "39f81a2060d34263e493812f52f2b27163b0dedd601c25cd362aca484f68d121",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 11",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "Death on the Moor",
+   "path": "chapters/0012.xhtml",
+   "chars": 19826,
+   "words": 4910,
+   "bytes": 27900,
+   "sha256": "ccb47e83c19634339966424fb7f0f4bd7722e64317ccafa91fa20ce0a3a8e507",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 12",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "Fixing the Nets",
+   "path": "chapters/0013.xhtml",
+   "chars": 14171,
+   "words": 3476,
+   "bytes": 20114,
+   "sha256": "1e69376180e4771717ac1ff9a5f5f2fa5d3991fda5edcf33b12dcb65fa7fcefe",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 13",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "The Hound of the Baskervilles",
+   "path": "chapters/0014.xhtml",
+   "chars": 17406,
+   "words": 4247,
+   "bytes": 23845,
+   "sha256": "4cc170073250025f1ec5c06edba5e677e0ff55d524178f95e2bb8b4a3a9df62f",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 14",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "A Retrospection",
+   "path": "chapters/0015.xhtml",
+   "chars": 17833,
+   "words": 4107,
+   "bytes": 23152,
+   "sha256": "2b2910973e94161fdae859146647bb85405194654f130d4ddc8242b894b2fb7e",
+   "source": "The Hound of the Baskervilles (Newnes, 1902)/Chapter 15",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "hound-of-the-baskervilles.epub",
+  "bytes": 145630,
+  "sha256": "cbc6d4e93387a9ffb2e7963698841f5fd9e4f7ccb637d082b0942fca5f9b66c4"
+ }
+}

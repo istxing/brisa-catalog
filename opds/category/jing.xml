@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:category:jing</id>
+<title>清風公版書庫 · 經部</title>
+<updated>2026-10-28T03:42:32Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="jing.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:lunyu</id>
+<title>論語</title>
+<updated>2026-10-28T03:14:12Z</updated>
+<author><name>孔子弟子及再傳弟子</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 春秋 · 孔子弟子及再傳弟子 · 20 章 · 15962 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>春秋</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>四書</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>15962</qf:chars>
+<qf:words>4114</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/lunyu/lunyu.epub" length="43803"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/lunyu/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:mengzi</id>
+<title>孟子</title>
+<updated>2026-10-28T03:42:29Z</updated>
+<author><name>孟軻及其弟子</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 戰國 · 孟軻及其弟子 · 14 章 · 35855 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>四書</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>35855</qf:chars>
+<qf:words>7533</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/mengzi/mengzi.epub" length="71248"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/mengzi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:zhouyi</id>
+<title>周易</title>
+<updated>2026-10-28T03:42:30Z</updated>
+<author><name>姬昌 等</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 周 · 姬昌 等 · 73 章 · 31472 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>周</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>易類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>31472</qf:chars>
+<qf:words>8760</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/zhouyi/zhouyi.epub" length="96211"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/zhouyi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:shangshu</id>
+<title>尚書</title>
+<updated>2026-10-28T03:42:30Z</updated>
+<author><name>佚名</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 先秦 · 佚名 · 69 章 · 31256 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>先秦</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>書類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>31256</qf:chars>
+<qf:words>8345</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/shangshu/shangshu.epub" length="103643"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/shangshu/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:shijing</id>
+<title>詩經</title>
+<updated>2026-10-28T03:42:31Z</updated>
+<author><name>佚名</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 先秦 · 佚名 · 311 章 · 49420 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>先秦</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>詩類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>49420</qf:chars>
+<qf:words>12689</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/shijing/shijing.epub" length="263016"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/shijing/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:liji</id>
+<title>禮記</title>
+<updated>2026-10-28T03:42:31Z</updated>
+<author><name>戴聖 編</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 漢 · 戴聖 編 · 49 章 · 98463 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>漢</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>禮類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>98463</qf:chars>
+<qf:words>22558</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/liji/liji.epub" length="191318"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/liji/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:zuozhuan</id>
+<title>春秋左氏傳</title>
+<updated>2026-10-28T03:42:32Z</updated>
+<author><name>左丘明</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 春秋戰國 · 左丘明 · 14 章 · 397146 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>春秋戰國</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>春秋類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>397146</qf:chars>
+<qf:words>93973</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/zuozhuan/zuozhuan.epub" length="656129"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/zuozhuan/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:xiaojing</id>
+<title>孝經</title>
+<updated>2026-10-28T03:42:32Z</updated>
+<author><name>曾子門人</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="jing" label="經部"/>
+<summary>[繁體中文] · 先秦 · 曾子門人 · 1 章 · 1911 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>先秦</qf:dynasty>
+<qf:category>jing</qf:category>
+<qf:subcategory>孝經類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>1911</qf:chars>
+<qf:words>417</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/xiaojing/xiaojing.epub" length="7250"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/xiaojing/manifest.json"/>
+</entry>
+</feed>

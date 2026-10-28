@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:lang:en</id>
+<title>清風公版書庫 · English</title>
+<updated>2026-10-28T03:52:41Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="en.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:the-raven</id>
+<title>The Raven</title>
+<updated>2026-10-27T23:27:34Z</updated>
+<author><name>Edgar Allan Poe</name></author>
+<dc:language>en</dc:language>
+<category term="drama" label="诗歌戏剧"/>
+<summary>[English] · 1845 · Edgar Allan Poe · 1 章 · 1090 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1845</qf:dynasty>
+<qf:category>drama</qf:category>
+<qf:subcategory>Poetry</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>4882</qf:chars>
+<qf:words>1090</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-raven/the-raven.epub" length="6456"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-raven/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:study-in-scarlet</id>
+<title>A Study in Scarlet</title>
+<updated>2026-10-28T03:52:30Z</updated>
+<author><name>Arthur Conan Doyle</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1887 · Arthur Conan Doyle · 16 章 · 45474 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1887</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Mystery</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>195646</qf:chars>
+<qf:words>45474</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/study-in-scarlet/study-in-scarlet.epub" length="120064"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/study-in-scarlet/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:sign-of-the-four</id>
+<title>The Sign of the Four</title>
+<updated>2026-10-28T03:52:30Z</updated>
+<author><name>Arthur Conan Doyle</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1890 · Arthur Conan Doyle · 12 章 · 43122 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1890</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Mystery</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>178405</qf:chars>
+<qf:words>43122</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sign-of-the-four/sign-of-the-four.epub" length="109348"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sign-of-the-four/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:sherlock-holmes-adventures</id>
+<title>The Adventures of Sherlock Holmes</title>
+<updated>2026-10-28T03:52:31Z</updated>
+<author><name>Arthur Conan Doyle</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1892 · Arthur Conan Doyle · 12 章 · 104662 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1892</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Mystery</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>431762</qf:chars>
+<qf:words>104662</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sherlock-holmes-adventures/sherlock-holmes-adventures.epub" length="235079"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sherlock-holmes-adventures/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:sherlock-holmes-memoirs</id>
+<title>The Memoirs of Sherlock Holmes</title>
+<updated>2026-10-28T03:52:31Z</updated>
+<author><name>Arthur Conan Doyle</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1894 · Arthur Conan Doyle · 11 章 · 87721 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1894</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Mystery</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>364950</qf:chars>
+<qf:words>87721</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sherlock-holmes-memoirs/sherlock-holmes-memoirs.epub" length="199076"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sherlock-holmes-memoirs/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:hound-of-the-baskervilles</id>
+<title>The Hound of the Baskervilles</title>
+<updated>2026-10-28T03:52:32Z</updated>
+<author><name>Arthur Conan Doyle</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1902 · Arthur Conan Doyle · 15 章 · 59730 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1902</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Mystery</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>246142</qf:chars>
+<qf:words>59730</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/hound-of-the-baskervilles/hound-of-the-baskervilles.epub" length="145630"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/hound-of-the-baskervilles/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:twenty-thousand-leagues</id>
+<title>Twenty Thousand Leagues Under the Sea</title>
+<updated>2026-10-28T03:52:32Z</updated>
+<author><name>Jules Verne</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1870 · Jules Verne · 46 章 · 103539 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1870</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Sci-Fi</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>460841</qf:chars>
+<qf:words>103539</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/twenty-thousand-leagues/twenty-thousand-leagues.epub" length="281239"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/twenty-thousand-leagues/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:around-the-world-in-eighty-days</id>
+<title>Around the World in Eighty Days</title>
+<updated>2026-10-28T03:52:33Z</updated>
+<author><name>Jules Verne</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1873 · Jules Verne · 38 章 · 64482 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1873</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Adventure</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>293919</qf:chars>
+<qf:words>64482</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/around-the-world-in-eighty-days/around-the-world-in-eighty-days.epub" length="188302"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/around-the-world-in-eighty-days/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:treasure-island</id>
+<title>Treasure Island</title>
+<updated>2026-10-28T03:52:33Z</updated>
+<author><name>Robert Louis Stevenson</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1883 · Robert Louis Stevenson · 34 章 · 67353 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1883</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Adventure</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>270594</qf:chars>
+<qf:words>67353</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/treasure-island/treasure-island.epub" length="176978"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/treasure-island/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:robinson-crusoe</id>
+<title>Robinson Crusoe</title>
+<updated>2026-10-28T03:52:34Z</updated>
+<author><name>Daniel Defoe</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1719 · Daniel Defoe · 20 章 · 121052 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1719</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Adventure</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>480015</qf:chars>
+<qf:words>121052</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/robinson-crusoe/robinson-crusoe.epub" length="250832"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/robinson-crusoe/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:the-time-machine</id>
+<title>The Time Machine</title>
+<updated>2026-10-28T01:24:02Z</updated>
+<author><name>H. G. Wells</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1895 · H. G. Wells · 16 章 · 32490 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1895</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Sci-Fi</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>140964</qf:chars>
+<qf:words>32490</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-time-machine/the-time-machine.epub" length="88477"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-time-machine/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:pride-and-prejudice</id>
+<title>Pride and Prejudice</title>
+<updated>2026-10-28T03:52:35Z</updated>
+<author><name>Jane Austen</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1813 · Jane Austen · 61 章 · 122309 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1813</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>537117</qf:chars>
+<qf:words>122309</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/pride-and-prejudice/pride-and-prejudice.epub" length="324745"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/pride-and-prejudice/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:sense-and-sensibility</id>
+<title>Sense and Sensibility</title>
+<updated>2026-10-28T03:52:36Z</updated>
+<author><name>Jane Austen</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1811 · Jane Austen · 50 章 · 120443 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1811</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>525629</qf:chars>
+<qf:words>120443</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sense-and-sensibility/sense-and-sensibility.epub" length="309546"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sense-and-sensibility/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:jane-eyre</id>
+<title>Jane Eyre</title>
+<updated>2026-10-28T03:52:37Z</updated>
+<author><name>Charlotte Brontë</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1847 · Charlotte Brontë · 38 章 · 185575 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1847</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>781013</qf:chars>
+<qf:words>185575</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/jane-eyre/jane-eyre.epub" length="463193"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/jane-eyre/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:tale-of-two-cities</id>
+<title>A Tale of Two Cities</title>
+<updated>2026-10-28T03:52:38Z</updated>
+<author><name>Charles Dickens</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1859 · Charles Dickens · 49 章 · 137284 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1859</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>588567</qf:chars>
+<qf:words>137284</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/tale-of-two-cities/tale-of-two-cities.epub" length="348039"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/tale-of-two-cities/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:the-great-gatsby</id>
+<title>The Great Gatsby</title>
+<updated>2026-10-28T03:52:39Z</updated>
+<author><name>F. Scott Fitzgerald</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1925 · F. Scott Fitzgerald · 9 章 · 49657 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1925</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>206092</qf:chars>
+<qf:words>49657</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-great-gatsby/the-great-gatsby.epub" length="123228"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-great-gatsby/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:tom-sawyer</id>
+<title>The Adventures of Tom Sawyer</title>
+<updated>2026-10-28T03:52:39Z</updated>
+<author><name>Mark Twain</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1876 · Mark Twain · 36 章 · 70521 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1876</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>294849</qf:chars>
+<qf:words>70521</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/tom-sawyer/tom-sawyer.epub" length="191981"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/tom-sawyer/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:call-of-the-wild</id>
+<title>The Call of the Wild</title>
+<updated>2026-10-28T03:52:40Z</updated>
+<author><name>Jack London</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1903 · Jack London · 7 章 · 31833 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1903</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Literature</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>138009</qf:chars>
+<qf:words>31833</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/call-of-the-wild/call-of-the-wild.epub" length="79199"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/call-of-the-wild/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:alice-in-wonderland</id>
+<title>Alice's Adventures in Wonderland</title>
+<updated>2026-10-28T03:52:40Z</updated>
+<author><name>Lewis Carroll</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1865 · Lewis Carroll · 12 章 · 25444 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1865</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Fantasy</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>103375</qf:chars>
+<qf:words>25444</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/alice-in-wonderland/alice-in-wonderland.epub" length="65590"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/alice-in-wonderland/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:happy-prince</id>
+<title>The Happy Prince and Other Tales</title>
+<updated>2026-10-28T03:52:40Z</updated>
+<author><name>Oscar Wilde</name></author>
+<dc:language>en</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[English] · 1888 · Oscar Wilde · 5 章 · 16197 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1888</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>Fairy Tales</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>65312</qf:chars>
+<qf:words>16197</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/happy-prince/happy-prince.epub" length="38623"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/happy-prince/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:walden</id>
+<title>Walden</title>
+<updated>2026-10-28T03:52:41Z</updated>
+<author><name>Henry David Thoreau</name></author>
+<dc:language>en</dc:language>
+<category term="philosophy" label="哲学思想"/>
+<summary>[English] · 1854 · Henry David Thoreau · 18 章 · 105236 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1854</qf:dynasty>
+<qf:category>philosophy</qf:category>
+<qf:subcategory>Philosophy</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>449782</qf:chars>
+<qf:words>105236</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/walden/walden.epub" length="250042"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/walden/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:art-of-war-en</id>
+<title>The Art of War</title>
+<updated>2026-10-28T03:52:41Z</updated>
+<author><name>Sun Tzu (trans. Lionel Giles)</name></author>
+<dc:language>en</dc:language>
+<category term="philosophy" label="哲学思想"/>
+<summary>[English] · 1910 · Sun Tzu (trans. Lionel Giles) · 20 章 · 12984 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1910</qf:dynasty>
+<qf:category>philosophy</qf:category>
+<qf:subcategory>Philosophy</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>55389</qf:chars>
+<qf:words>12984</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/art-of-war-en/art-of-war-en.epub" length="44791"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/art-of-war-en/manifest.json"/>
+</entry>
+</feed>

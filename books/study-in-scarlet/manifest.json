@@ -1,0 +1,218 @@
+{
+ "schema": 2,
+ "id": "study-in-scarlet",
+ "title": "A Study in Scarlet",
+ "aliases": [
+  "血字的研究",
+  "福尔摩斯第一部",
+  "Conan Doyle"
+ ],
+ "author": "Arthur Conan Doyle",
+ "dynasty": "1887",
+ "category": "fiction",
+ "subcategory": "Mystery",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:30Z",
+ "content_hash": "b8b0a951dce531c8beed4c0667a75d653d1641ec513b8bab9638815bb297cf40",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "A Study in Scarlet (London: Ward, Lock & Co.)",
+  "url": "https://en.wikisource.org/wiki/A_Study_in_Scarlet_%28London%3A_Ward%2C_Lock_%26_Co.%29"
+ },
+ "chars": 195646,
+ "words": 45474,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Publishers' Note to this Edition",
+   "path": "chapters/0001.xhtml",
+   "chars": 1756,
+   "words": 391,
+   "bytes": 2712,
+   "sha256": "83785e4914a60aa74bfaaa44e47651a577e6e66034a1ef301be53d553cd6b441",
+   "source": "A Study in Scarlet/Publishers' Note",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "Mr. Sherlock Holmes",
+   "path": "chapters/0002.xhtml",
+   "chars": 8015,
+   "words": 1704,
+   "bytes": 10407,
+   "sha256": "0a6aa89c94c7becfe1cf6453ad324aa2f1b1aa2ab729ca479f2281dc2f917bc7",
+   "source": "A Study in Scarlet/Essay",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "I",
+   "path": "chapters/0003.xhtml",
+   "chars": 11970,
+   "words": 2798,
+   "bytes": 16307,
+   "sha256": "086300b827a38822cbf94e4ded481209a10aad3699e3ee9fe0d5d41f0850b7fc",
+   "source": "A Study in Scarlet/Part 1/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "II",
+   "path": "chapters/0004.xhtml",
+   "chars": 15736,
+   "words": 3561,
+   "bytes": 20748,
+   "sha256": "97973102a10bdaafd60081a125910afc5ef29380d5fa14fb2384eb4ec89939f2",
+   "source": "A Study in Scarlet/Part 1/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "III",
+   "path": "chapters/0005.xhtml",
+   "chars": 16604,
+   "words": 3833,
+   "bytes": 22431,
+   "sha256": "f85a77e4249f8bb8cbc3f6fbe78365b1dbf0692014cda4310ec0b137a3532e2f",
+   "source": "A Study in Scarlet/Part 1/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "IV",
+   "path": "chapters/0006.xhtml",
+   "chars": 10364,
+   "words": 2558,
+   "bytes": 14315,
+   "sha256": "7367b4adba336829ef5ca6f45c3150e49a3de7ffd4b18262d8acefb966c35298",
+   "source": "A Study in Scarlet/Part 1/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "V",
+   "path": "chapters/0007.xhtml",
+   "chars": 10503,
+   "words": 2527,
+   "bytes": 14337,
+   "sha256": "fdee0b1fee13055c44df97f311d039c79fd71c4319c91afd4d815b8205d03049",
+   "source": "A Study in Scarlet/Part 1/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "VI",
+   "path": "chapters/0008.xhtml",
+   "chars": 13817,
+   "words": 3209,
+   "bytes": 18839,
+   "sha256": "e8dcd68f42ef9f076c1ed2b8558a7264cc0625d3f1c24aa6da1aa1d097f77f67",
+   "source": "A Study in Scarlet/Part 1/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "VII",
+   "path": "chapters/0009.xhtml",
+   "chars": 14289,
+   "words": 3331,
+   "bytes": 19026,
+   "sha256": "bb6e9981867efcd74eeebdb7a6ee047ed1555a1fdb999be00eec8df570a2dd95",
+   "source": "A Study in Scarlet/Part 1/Chapter 7",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "I",
+   "path": "chapters/0010.xhtml",
+   "chars": 15989,
+   "words": 3630,
+   "bytes": 21260,
+   "sha256": "da126faa4f4683113a3f97cc40414324a72b65a88f7b98a53af523ca5dcadb14",
+   "source": "A Study in Scarlet/Part 2/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "II",
+   "path": "chapters/0011.xhtml",
+   "chars": 11337,
+   "words": 2574,
+   "bytes": 14927,
+   "sha256": "91b39e6699a98f6dd28311fab188dbdea9b8e3c631abe1c29cf61890ce69e303",
+   "source": "A Study in Scarlet/Part 2/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "III",
+   "path": "chapters/0012.xhtml",
+   "chars": 7917,
+   "words": 1831,
+   "bytes": 10760,
+   "sha256": "034b5fe440c0c2cf4da6688c8a2eec1132d84b9249b0c7e45d93ee7040587f9e",
+   "source": "A Study in Scarlet/Part 2/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "IV",
+   "path": "chapters/0013.xhtml",
+   "chars": 14638,
+   "words": 3381,
+   "bytes": 19436,
+   "sha256": "24d5288c7211f7f941ecd8edc7e126fec69da749b156c1af713b445665711b0a",
+   "source": "A Study in Scarlet/Part 2/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "V",
+   "path": "chapters/0014.xhtml",
+   "chars": 15544,
+   "words": 3532,
+   "bytes": 20195,
+   "sha256": "d76dbdae6b709bd316075eb117afa31bc3b4196a8c51c948be0055e896d61fda",
+   "source": "A Study in Scarlet/Part 2/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "VI",
+   "path": "chapters/0015.xhtml",
+   "chars": 18037,
+   "words": 4503,
+   "bytes": 24065,
+   "sha256": "1d49248254f50037c927b60902394fb249fdc2e3a8256e15f9e424bf539b6ed2",
+   "source": "A Study in Scarlet/Part 2/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "VII",
+   "path": "chapters/0016.xhtml",
+   "chars": 9130,
+   "words": 2111,
+   "bytes": 12147,
+   "sha256": "097d7a26c9d7bebfb2120016e2b6cf4cf2e25e5abe65326c9af4be4771997574",
+   "source": "A Study in Scarlet/Part 2/Chapter 7",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "study-in-scarlet.epub",
+  "bytes": 120064,
+  "sha256": "0f449452b5ba7c2ecff3c9b6d080c597562a3d744548d125b30bf1173bd83f1c"
+ }
+}

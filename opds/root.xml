@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:root</id>
+<title>清風公版書庫 · Brisa Public Catalog</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="start" href="root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:catalog:all</id>
+<title>全部書籍 · All Books</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<content type="text">共 60 部典籍</content>
+<link rel="subsection" href="all.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:lang:en</id>
+<title>English</title>
+<updated>2026-10-28T03:52:41Z</updated>
+<content type="text">22 部</content>
+<link rel="subsection" href="lang/en.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:lang:ja</id>
+<title>日本語</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<content type="text">7 部</content>
+<link rel="subsection" href="lang/ja.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:lang:zh-Hant</id>
+<title>繁體中文</title>
+<updated>2026-10-28T03:52:29Z</updated>
+<content type="text">31 部</content>
+<link rel="subsection" href="lang/zh-Hant.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:drama</id>
+<title>诗歌戏剧</title>
+<updated>2026-10-27T23:27:34Z</updated>
+<content type="text">1 部</content>
+<link rel="subsection" href="category/drama.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:fiction</id>
+<title>文学小说</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<content type="text">34 部</content>
+<link rel="subsection" href="category/fiction.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:philosophy</id>
+<title>哲学思想</title>
+<updated>2026-10-28T03:52:41Z</updated>
+<content type="text">2 部</content>
+<link rel="subsection" href="category/philosophy.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:ji</id>
+<title>集部</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<content type="text">4 部</content>
+<link rel="subsection" href="category/ji.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:jing</id>
+<title>經部</title>
+<updated>2026-10-28T03:42:32Z</updated>
+<content type="text">8 部</content>
+<link rel="subsection" href="category/jing.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:shi</id>
+<title>史部</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<content type="text">3 部</content>
+<link rel="subsection" href="category/shi.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+<entry>
+<id>urn:qingfeng:catalog:category:zi</id>
+<title>子部</title>
+<updated>2026-10-28T03:42:34Z</updated>
+<content type="text">8 部</content>
+<link rel="subsection" href="category/zi.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+</entry>
+</feed>

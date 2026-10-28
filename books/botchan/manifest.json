@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "id": "botchan",
+ "title": "坊っちゃん",
+ "aliases": [
+  "少爷",
+  "夏目漱石 少爷"
+ ],
+ "author": "夏目漱石",
+ "dynasty": "1906",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:44Z",
+ "content_hash": "cbfa9ae5b1239b38dbf7fd0c2f04d8a5e79eb7983db1e6a01ecd0e46b84cbc7d",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "坊つちやん",
+  "url": "https://ja.wikisource.org/wiki/%E5%9D%8A%E3%81%A4%E3%81%A1%E3%82%84%E3%82%93"
+ },
+ "chars": 90949,
+ "words": 11790,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "坊っちゃん",
+   "path": "chapters/0001.xhtml",
+   "chars": 90949,
+   "words": 11790,
+   "bytes": 313885,
+   "sha256": "67d2b3e4074f2f52902166cf7578d66b8abd7ebcdc7fd08552b88b9aaeee74fb",
+   "source": "坊つちやん",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "botchan.epub",
+  "bytes": 110367,
+  "sha256": "f10d89e359edc5459692236af31daf45c34af3daf584b161bed1b9bd91dd242c"
+ }
+}

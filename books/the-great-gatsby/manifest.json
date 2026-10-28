@@ -1,0 +1,140 @@
+{
+ "schema": 2,
+ "id": "the-great-gatsby",
+ "title": "The Great Gatsby",
+ "aliases": [
+  "了不起的盖茨比",
+  "菲茨杰拉德"
+ ],
+ "author": "F. Scott Fitzgerald",
+ "dynasty": "1925",
+ "category": "fiction",
+ "subcategory": "Literature",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:39Z",
+ "content_hash": "65c975eb8872a47fc2cbd4f8b8ae1f1850d04a6000cff0cc118aae3e315e3341",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The_Great_Gatsby_(1925)",
+  "url": "https://en.wikisource.org/wiki/The_Great_Gatsby_%281925%29"
+ },
+ "chars": 206092,
+ "words": 49657,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Chapter 1",
+   "path": "chapters/0001.xhtml",
+   "chars": 25557,
+   "words": 6069,
+   "bytes": 35187,
+   "sha256": "a691247e4557cfbad88211b078ce7b4c3bd6a2bde37b3d49e2b038a1a049aceb",
+   "source": "The Great Gatsby (1925)/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "Chapter 2",
+   "path": "chapters/0002.xhtml",
+   "chars": 18154,
+   "words": 4400,
+   "bytes": 25731,
+   "sha256": "e1c17b2b5606c5c7c66d98abc03bed30c41fcf082ed8128dd3386131b585e742",
+   "source": "The Great Gatsby (1925)/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "Chapter 3",
+   "path": "chapters/0003.xhtml",
+   "chars": 25374,
+   "words": 5892,
+   "bytes": 34911,
+   "sha256": "24d8175d050e98ba32723fe6a8d0339b0937affe9a8faa0e14145a3dddc1dc15",
+   "source": "The Great Gatsby (1925)/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "Chapter 4",
+   "path": "chapters/0004.xhtml",
+   "chars": 23397,
+   "words": 5621,
+   "bytes": 32801,
+   "sha256": "6816b8dfd2e5889efb3e25be43ffa9f853eb65ceac8bb8e0e4a258f17abdbc9d",
+   "source": "The Great Gatsby (1925)/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "Chapter 5",
+   "path": "chapters/0005.xhtml",
+   "chars": 18013,
+   "words": 4375,
+   "bytes": 25820,
+   "sha256": "ec4bab8081534d1559dc9a7f6aabdb44dcc889d0a02b36a72ed0658dfe90e392",
+   "source": "The Great Gatsby (1925)/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "Chapter 6",
+   "path": "chapters/0006.xhtml",
+   "chars": 17630,
+   "words": 4169,
+   "bytes": 24801,
+   "sha256": "f3c2ee8f05076f7d6e89ea9d5bd27eb591ff3fcff32d7523034a535ac2cdeb10",
+   "source": "The Great Gatsby (1925)/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "Chapter 7",
+   "path": "chapters/0007.xhtml",
+   "chars": 37084,
+   "words": 9112,
+   "bytes": 54458,
+   "sha256": "318f4881eddf07f628bd2d533c80c09b0e1dd99b8bfaacef7d56596337b07b2a",
+   "source": "The Great Gatsby (1925)/Chapter 7",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "Chapter 8",
+   "path": "chapters/0008.xhtml",
+   "chars": 19477,
+   "words": 4671,
+   "bytes": 26685,
+   "sha256": "07c0bc06ea848f72216d96b9c8a273c69618a842023e80fef58eb8d248674388",
+   "source": "The Great Gatsby (1925)/Chapter 8",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "Chapter 9",
+   "path": "chapters/0009.xhtml",
+   "chars": 21406,
+   "words": 5348,
+   "bytes": 30165,
+   "sha256": "80f1426ecab0ead5f8c752bbedb0ae0fed7bd1139f0e502eed39232d4ff1a115",
+   "source": "The Great Gatsby (1925)/Chapter 9",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "the-great-gatsby.epub",
+  "bytes": 123228,
+  "sha256": "c0f5543000515e6efd1f4b9dd66a80336477c582427b1cda39b48d60143ecc22"
+ }
+}

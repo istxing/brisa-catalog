@@ -1,0 +1,261 @@
+{
+ "schema": 2,
+ "id": "art-of-war-en",
+ "title": "The Art of War",
+ "aliases": [
+  "孙子兵法英译本",
+  "Sun Tzu"
+ ],
+ "author": "Sun Tzu (trans. Lionel Giles)",
+ "dynasty": "1910",
+ "category": "philosophy",
+ "subcategory": "Philosophy",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:41Z",
+ "content_hash": "2d4ad69b1342122973549b262af3d823fdc81422bc7f2a0b1572fec8250a250b",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The_Art_of_War_(Sun)",
+  "url": "https://en.wikisource.org/wiki/The_Art_of_War_%28Sun%29"
+ },
+ "chars": 55389,
+ "words": 12984,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Preface",
+   "path": "chapters/0001.xhtml",
+   "chars": 5160,
+   "words": 1104,
+   "bytes": 6934,
+   "sha256": "48efee2c770012df0d3103b5cf69212482a956c2a789aa2618394b397745d900",
+   "source": "The Art of War (Sun)/Preface",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "Sun Wu and his Book",
+   "path": "chapters/0002.xhtml",
+   "chars": 22935,
+   "words": 5525,
+   "bytes": 30879,
+   "sha256": "c712527a18890164ee17a96b4dd9bfb59e9ba47018d8ce723b5918a2445c8db0",
+   "source": "The Art of War (Sun)/Sun Wu and his Book",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "The Text of Sun Tzŭ",
+   "path": "chapters/0003.xhtml",
+   "chars": 4886,
+   "words": 1099,
+   "bytes": 6807,
+   "sha256": "fd66b5298d4d18fca29a604b6cb55fcfebcfa24a51df8711b1a29d52d8c27b25",
+   "source": "The Art of War (Sun)/The Text of Sun Tzŭ",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "The Commentators",
+   "path": "chapters/0004.xhtml",
+   "chars": 9010,
+   "words": 2108,
+   "bytes": 12499,
+   "sha256": "9d823c30769aeba663670c4c7ebb76bd4c2fa0f5edd037db5198d19d40de578f",
+   "source": "The Art of War (Sun)/The Commentators",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "Appreciations of Sun Tzŭ",
+   "path": "chapters/0005.xhtml",
+   "chars": 1579,
+   "words": 378,
+   "bytes": 2578,
+   "sha256": "b97ad6fb4ddc48cd1b57adaefd7d4b02e4c25e023d3cd0ec84f701e9510945d5",
+   "source": "The Art of War (Sun)/Appreciations of Sun Tzŭ",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "Apologies for war",
+   "path": "chapters/0006.xhtml",
+   "chars": 8221,
+   "words": 1819,
+   "bytes": 10945,
+   "sha256": "dc47e8b68aef23df549da952d4376d5f8d2d169c07b8e0216605be8624bdaa47",
+   "source": "The Art of War (Sun)/Apologies for war",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "Bibliography",
+   "path": "chapters/0007.xhtml",
+   "chars": 3598,
+   "words": 951,
+   "bytes": 5898,
+   "sha256": "cf3047a4e671d0b0ffee0758c33e0149aafd973e06b7593375dfc636e0588f38",
+   "source": "The Art of War (Sun)/Bibliography",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "Laying Plans",
+   "path": "chapters/0008.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 373,
+   "sha256": "9d5a08c65b7049050a495e44f59566051407b37f40a421036e89fcf965380c3e",
+   "source": "The Art of War (Sun)/Section I",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "Waging War",
+   "path": "chapters/0009.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 369,
+   "sha256": "2b2e0fdad1ac32681b5a11dc8dd6e5817bb055c54fbb00e82bb2216ffdfc6fea",
+   "source": "The Art of War (Sun)/Section II",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "Attack by Stratagem",
+   "path": "chapters/0010.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 387,
+   "sha256": "5b4b7d26c651c293faeb109b50a7cd5322de1848f869c0b3df72d9fbd7747fea",
+   "source": "The Art of War (Sun)/Section III",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "Tactical Dispositions",
+   "path": "chapters/0011.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 391,
+   "sha256": "ba8b6035732c958f65e8cb9c85d9b6bd61b08aa74a6665b29aa7da5b8f451295",
+   "source": "The Art of War (Sun)/Section IV",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "Energy",
+   "path": "chapters/0012.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 361,
+   "sha256": "0fcc7c5f6a73d196642711eb20e1ae16055b546d7d2405a1df762d0ee63cf287",
+   "source": "The Art of War (Sun)/Section V",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "Weak Points and Strong",
+   "path": "chapters/0013.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 393,
+   "sha256": "28fb7e27654698e9eafb363ed954a14af13176e37e63c1175fcc6b6a8134931e",
+   "source": "The Art of War (Sun)/Section VI",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "Manœuvring",
+   "path": "chapters/0014.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 371,
+   "sha256": "b949ece3899c7bbfd1583231b0a4ddb148b057048e50c03231c08656f56c0e46",
+   "source": "The Art of War (Sun)/Section VII",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "Variation of Tactics",
+   "path": "chapters/0015.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 389,
+   "sha256": "e67bed9f470c21ff15bce728bcb037defef696a921ebbe275571dea0a2d24bb3",
+   "source": "The Art of War (Sun)/Section VIII",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "The Army on the March",
+   "path": "chapters/0016.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 391,
+   "sha256": "63c3e6f71b512fa97e4170bb277151274706e01f1cf3dcdbb7c93ca1363d5600",
+   "source": "The Art of War (Sun)/Section IX",
+   "source_revid": 1
+  },
+  {
+   "index": 17,
+   "title": "Terrain",
+   "path": "chapters/0017.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 363,
+   "sha256": "b6aa20a2ea22ea82bcdb96a5b61b2b463fef8fc1f10bb54dca48137f35a5fc8e",
+   "source": "The Art of War (Sun)/Section X",
+   "source_revid": 1
+  },
+  {
+   "index": 18,
+   "title": "The Nine Situations",
+   "path": "chapters/0018.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 387,
+   "sha256": "d0394109ad629db037d6146a1ec275f1a972e01fbf74dd53b866bb9656f12ca4",
+   "source": "The Art of War (Sun)/Section XI",
+   "source_revid": 1
+  },
+  {
+   "index": 19,
+   "title": "The Attack by Fire",
+   "path": "chapters/0019.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 385,
+   "sha256": "937e0a82c286ebe8a97597ea3976befde459cac71c312493d54a1d4c81b7795b",
+   "source": "The Art of War (Sun)/Section XII",
+   "source_revid": 1
+  },
+  {
+   "index": 20,
+   "title": "The Use of Spies",
+   "path": "chapters/0020.xhtml",
+   "chars": 0,
+   "words": 0,
+   "bytes": 381,
+   "sha256": "8cdf7c41a47a9de1f35194592e6a4abc7265c0c3c0c990bd6a4f9d571cdbb3d9",
+   "source": "The Art of War (Sun)/Section XIII",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "art-of-war-en.epub",
+  "bytes": 44791,
+  "sha256": "597163ad506545da4a4b0a7caabb47e65a42b797e0904d4a60a0e611e8604f8f"
+ }
+}

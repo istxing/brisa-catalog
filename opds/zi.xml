@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:category:zi</id>
+<title>清風公版書庫 · 子部</title>
+<updated>2026-10-28T03:42:34Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="zi.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:zhuangzi</id>
+<title>莊子</title>
+<updated>2026-10-28T03:42:32Z</updated>
+<author><name>莊周</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 戰國 · 莊周 · 33 章 · 65160 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>道家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>65160</qf:chars>
+<qf:words>13766</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/zhuangzi/zhuangzi.epub" length="136691"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/zhuangzi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:daodejing</id>
+<title>道德經</title>
+<updated>2026-10-28T03:42:32Z</updated>
+<author><name>李耳</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 春秋 · 李耳 · 1 章 · 5557 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>春秋</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>道家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>5557</qf:chars>
+<qf:words>1219</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/daodejing/daodejing.epub" length="13155"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/daodejing/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:sunzi-bingfa</id>
+<title>孫子兵法</title>
+<updated>2026-10-28T01:24:01Z</updated>
+<author><name>孫武</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 春秋 · 孫武 · 1 章 · 7244 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>春秋</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>兵家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>7244</qf:chars>
+<qf:words>116</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sunzi-bingfa/sunzi-bingfa.epub" length="14774"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sunzi-bingfa/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:xunzi</id>
+<title>荀子</title>
+<updated>2026-10-28T03:42:33Z</updated>
+<author><name>荀況</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 戰國 · 荀況 · 33 章 · 109853 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>儒家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>109853</qf:chars>
+<qf:words>23927</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/xunzi/xunzi.epub" length="211666"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/xunzi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:hanfeizi</id>
+<title>韓非子</title>
+<updated>2026-10-28T03:42:33Z</updated>
+<author><name>韓非</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 戰國 · 韓非 · 75 章 · 212482 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>法家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>212482</qf:chars>
+<qf:words>39752</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/hanfeizi/hanfeizi.epub" length="398311"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/hanfeizi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:mozi</id>
+<title>墨子</title>
+<updated>2026-10-28T03:42:33Z</updated>
+<author><name>墨子及其後學</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 戰國 · 墨子及其後學 · 54 章 · 152526 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>墨家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>152526</qf:chars>
+<qf:words>29381</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/mozi/mozi.epub" length="256744"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/mozi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:guanzi</id>
+<title>管子</title>
+<updated>2026-10-28T03:42:34Z</updated>
+<author><name>管仲及其後學</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 先秦 · 管仲及其後學 · 80 章 · 128346 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>先秦</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>治國</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>128346</qf:chars>
+<qf:words>25497</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/guanzi/guanzi.epub" length="252886"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/guanzi/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:liezi</id>
+<title>列子</title>
+<updated>2026-10-28T03:42:34Z</updated>
+<author><name>列禦寇</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="zi" label="子部"/>
+<summary>[繁體中文] · 戰國 · 列禦寇 · 8 章 · 30729 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>zi</qf:category>
+<qf:subcategory>道家</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>30729</qf:chars>
+<qf:words>6185</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/liezi/liezi.epub" length="62056"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/liezi/manifest.json"/>
+</entry>
+</feed>

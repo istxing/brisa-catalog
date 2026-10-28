@@ -1,0 +1,239 @@
+{
+ "schema": 2,
+ "id": "walden",
+ "title": "Walden",
+ "aliases": [
+  "瓦尔登湖",
+  "梭罗"
+ ],
+ "author": "Henry David Thoreau",
+ "dynasty": "1854",
+ "category": "philosophy",
+ "subcategory": "Philosophy",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:41Z",
+ "content_hash": "6b3b884a26e16c30113c4a13e86272290e7e9d2543eb3160e025a1bc15f0a997",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "Walden (1854) Thoreau",
+  "url": "https://en.wikisource.org/wiki/Walden_%281854%29_Thoreau"
+ },
+ "chars": 449782,
+ "words": 105236,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "ECONOMY",
+   "path": "chapters/0001.xhtml",
+   "chars": 107569,
+   "words": 25200,
+   "bytes": 137859,
+   "sha256": "4cac5dbfefcbde097a221266e366c7415096cbeceff3d175cf46e1dd17edc9fe",
+   "source": "Walden (1854) Thoreau/Economy",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "WHERE I LIVED, AND WHAT I LIVED FOR",
+   "path": "chapters/0002.xhtml",
+   "chars": 25434,
+   "words": 6077,
+   "bytes": 33086,
+   "sha256": "641e94e8d17f081eb5efb1edcfdb1f39c3e0db683b664f8faa195fdcaedfcce5",
+   "source": "Walden (1854) Thoreau/Where I Lived, and What I Lived for",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "READING",
+   "path": "chapters/0003.xhtml",
+   "chars": 16745,
+   "words": 3782,
+   "bytes": 21534,
+   "sha256": "e6c3a4f70cefba304904edc129870838bfcddaee26d4430ead004561ff9f6175",
+   "source": "Walden (1854) Thoreau/Reading",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "SOUNDS",
+   "path": "chapters/0004.xhtml",
+   "chars": 24772,
+   "words": 5657,
+   "bytes": 31888,
+   "sha256": "befee26e1a2393685a86dff8c65811a27ac2952ba82b1c9fc007ae1331deaf62",
+   "source": "Walden (1854) Thoreau/Sounds",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "SOLITUDE",
+   "path": "chapters/0005.xhtml",
+   "chars": 14358,
+   "words": 3428,
+   "bytes": 18841,
+   "sha256": "210370ea7c5c343816febc08957a1bd2e70ebf35029ff483c4dea9e96fd3d8ea",
+   "source": "Walden (1854) Thoreau/Solitude",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "VISITORS",
+   "path": "chapters/0006.xhtml",
+   "chars": 19814,
+   "words": 4661,
+   "bytes": 25811,
+   "sha256": "63a3528d07dd94c3c961c9ec76e5878dfc756def6a8abf38fb0ab3f6dd7505d0",
+   "source": "Walden (1854) Thoreau/Visitors",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "THE BEAN-FIELD",
+   "path": "chapters/0007.xhtml",
+   "chars": 16301,
+   "words": 3792,
+   "bytes": 21261,
+   "sha256": "17721464a20eacb03f53bb67ed93b410e1f056a0e820a1dfb8e51767051217db",
+   "source": "Walden (1854) Thoreau/The Bean-Field",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "THE VILLAGE",
+   "path": "chapters/0008.xhtml",
+   "chars": 8426,
+   "words": 2005,
+   "bytes": 11171,
+   "sha256": "0646bf082fe89bcc317bea992f62e8184eb0fe8e4f78f4f17bc0712824f72c4a",
+   "source": "Walden (1854) Thoreau/The Village",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "THE PONDS",
+   "path": "chapters/0009.xhtml",
+   "chars": 38773,
+   "words": 9120,
+   "bytes": 49880,
+   "sha256": "633a5e1b3df2e1d63e13083e67622d0e01ece6e3219743fd4513161eb5afcd7e",
+   "source": "Walden (1854) Thoreau/The Ponds",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "BAKER FARM",
+   "path": "chapters/0010.xhtml",
+   "chars": 10386,
+   "words": 2443,
+   "bytes": 13737,
+   "sha256": "4c37b62e4a3d168bbc726d9cdb422113ca0bb9d70e0be24d4f93ef042ff03d3f",
+   "source": "Walden (1854) Thoreau/Baker Farm",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "HIGHER LAWS",
+   "path": "chapters/0011.xhtml",
+   "chars": 17837,
+   "words": 4135,
+   "bytes": 23116,
+   "sha256": "713a1d1d751e0dfd06454fbaf9786614f69e1cb67da00a1e933bb1ff41096f84",
+   "source": "Walden (1854) Thoreau/Higher Laws",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "BRUTE NEIGHBORS",
+   "path": "chapters/0012.xhtml",
+   "chars": 20184,
+   "words": 4801,
+   "bytes": 26251,
+   "sha256": "fb178caa30118525816cf967ac2c071f2da4a8211e040b14dd49d22f624e7486",
+   "source": "Walden (1854) Thoreau/Brute Neighbors",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "HOUSE-WARMING",
+   "path": "chapters/0013.xhtml",
+   "chars": 23347,
+   "words": 5505,
+   "bytes": 30158,
+   "sha256": "0baa2725e8441226f1aafb2842bb14833494b0b99a88ec4c903741027dbf0f84",
+   "source": "Walden (1854) Thoreau/House-Warming",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "FORMER INHABITANTS; AND WINTER VISITORS",
+   "path": "chapters/0014.xhtml",
+   "chars": 20454,
+   "words": 4702,
+   "bytes": 26636,
+   "sha256": "398c8499e221d1a5c72088975519d855493be704a4d50c6214e2d6f8a638f7b5",
+   "source": "Walden (1854) Thoreau/Former Inhabitants; and Winter Visitors",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "WINTER ANIMALS",
+   "path": "chapters/0015.xhtml",
+   "chars": 15528,
+   "words": 3654,
+   "bytes": 20254,
+   "sha256": "a276d8faec58e8d14c16fd4737cb0497d9c36f52aa271b829b44a34a666c3945",
+   "source": "Walden (1854) Thoreau/Winter Animals",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "THE POND IN WINTER",
+   "path": "chapters/0016.xhtml",
+   "chars": 22228,
+   "words": 5196,
+   "bytes": 28711,
+   "sha256": "134e5b69acea9ef073f16cac80b5f2f073c569f2cf4c0b0140d2e08158757678",
+   "source": "Walden (1854) Thoreau/The Pond in Winter",
+   "source_revid": 1
+  },
+  {
+   "index": 17,
+   "title": "SPRING",
+   "path": "chapters/0017.xhtml",
+   "chars": 28057,
+   "words": 6491,
+   "bytes": 36081,
+   "sha256": "bbbccdfca74d9b0c1e60017c3afe4142ae3c554f0f0c7f76091569ea48204f99",
+   "source": "Walden (1854) Thoreau/Spring",
+   "source_revid": 1
+  },
+  {
+   "index": 18,
+   "title": "CONCLUSION",
+   "path": "chapters/0018.xhtml",
+   "chars": 19569,
+   "words": 4587,
+   "bytes": 25412,
+   "sha256": "c90229f7f9f196ba6674531e9331a36e06e18367afd29d5a93e628250b1bea0c",
+   "source": "Walden (1854) Thoreau/Conclusion",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "walden.epub",
+  "bytes": 250042,
+  "sha256": "bd13fcc0c9dd5103deb23ad8d7c30cab3c5527629e34161275f5bbefc9d7e4cd"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "id": "sunzi-bingfa",
+ "title": "孫子兵法",
+ "aliases": [
+  "孙子兵法",
+  "The Art of War",
+  "孙武"
+ ],
+ "author": "孫武",
+ "dynasty": "春秋",
+ "category": "zi",
+ "subcategory": "兵家",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T01:24:01Z",
+ "content_hash": "74ed3f1396104717173fd8ecaaaa493fc220a7dd49b7fdbe8a7444ac5acb09b2",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "孫子_(四庫全書本)",
+  "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+ },
+ "chars": 7244,
+ "words": 116,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "孫子兵法",
+   "path": "chapters/0001.xhtml",
+   "chars": 7244,
+   "words": 116,
+   "bytes": 22877,
+   "sha256": "ceb00677680915727762c532875ab84b7315a746ccb9a79eaeb1e169c117fc27",
+   "source": "孫子_(四庫全書本)",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "sunzi-bingfa.epub",
+  "bytes": 14774,
+  "sha256": "1233f8b689595a70bc2d964e59f69c61d18b826d0ba51f64c7ed754e22998fe3"
+ }
+}

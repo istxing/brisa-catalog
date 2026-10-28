@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "id": "the-raven",
+ "title": "The Raven",
+ "aliases": [
+  "乌鸦",
+  "黑鸦",
+  "Edgar Allan Poe"
+ ],
+ "author": "Edgar Allan Poe",
+ "dynasty": "1845",
+ "category": "drama",
+ "subcategory": "Poetry",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-27T23:27:34Z",
+ "content_hash": "a6fb25f05e5fa887ccd44e6595c08f542537805c6eecab73a307d59578b898e4",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The_Raven_and_Other_Poems/The_Raven",
+  "url": "https://en.wikisource.org/wiki/The_Raven_and_Other_Poems/The_Raven"
+ },
+ "chars": 4882,
+ "words": 1090,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "The Raven",
+   "path": "chapters/0001.xhtml",
+   "chars": 4882,
+   "words": 1090,
+   "bytes": 7130,
+   "sha256": "0827fec7a3e585bb843744516bbffaaeefeba0a044df05d1e968ce9d1cafe2a4",
+   "source": "The_Raven_and_Other_Poems/The_Raven",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "the-raven.epub",
+  "bytes": 6456,
+  "sha256": "f8ba8f3b15299739cde87bf1916d66fe3cbc0be9b367f0a446cf6f8616c2e955"
+ }
+}

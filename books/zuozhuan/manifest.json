@@ -1,0 +1,196 @@
+{
+ "schema": 2,
+ "id": "zuozhuan",
+ "title": "春秋左氏傳",
+ "aliases": [
+  "左传",
+  "左氏春秋",
+  "Zuo Zhuan"
+ ],
+ "author": "左丘明",
+ "dynasty": "春秋戰國",
+ "category": "jing",
+ "subcategory": "春秋類",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:42:32Z",
+ "content_hash": "f43658df77db8f8cbb2a6bca2c72e5affec45ee9ae0fd9c59b3cee87153535e7",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "春秋左氏傳",
+  "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3"
+ },
+ "chars": 397146,
+ "words": 93973,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "序",
+   "path": "chapters/0001.xhtml",
+   "chars": 1608,
+   "words": 307,
+   "bytes": 6198,
+   "sha256": "04e92c4c7e3bf45545bcce248a33498531afc9e4b5c01f431628da348f9b18ad",
+   "source": "春秋左氏傳/序",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "隱公",
+   "path": "chapters/0002.xhtml",
+   "chars": 5584,
+   "words": 1375,
+   "bytes": 23502,
+   "sha256": "ccb6fd9366d34fea28a4fc569caa14600200104b86ef04d2582bf07ff5442810",
+   "source": "春秋左氏傳/隱公",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "桓公",
+   "path": "chapters/0003.xhtml",
+   "chars": 5672,
+   "words": 1435,
+   "bytes": 24179,
+   "sha256": "b96f47482c59c977276c4ed08ff25a88986123723a9ef65faeda2361f6770ef6",
+   "source": "春秋左氏傳/桓公",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "莊公",
+   "path": "chapters/0004.xhtml",
+   "chars": 6989,
+   "words": 1673,
+   "bytes": 30039,
+   "sha256": "c7f80c7b3d1c7df2ed4d49b3481c767e81f271ce2ea48816bb64c24086e1dba8",
+   "source": "春秋左氏傳/莊公",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "閔公",
+   "path": "chapters/0005.xhtml",
+   "chars": 1821,
+   "words": 465,
+   "bytes": 7806,
+   "sha256": "85a76cdad8a5d2d79e6123d02ba8cc77724e84a852b88f61fef0d888e4b8fa51",
+   "source": "春秋左氏傳/閔公",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "僖公",
+   "path": "chapters/0006.xhtml",
+   "chars": 19426,
+   "words": 4808,
+   "bytes": 80230,
+   "sha256": "25436371893018c9b287fa642b1c7044a24c87cf0e1c2c5958359d2f8f1502e1",
+   "source": "春秋左氏傳/僖公",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "文公",
+   "path": "chapters/0007.xhtml",
+   "chars": 11259,
+   "words": 2755,
+   "bytes": 45629,
+   "sha256": "1f1e59307c078865eb21e076dceb54004a2b05891dc6b62c962cf8913f1c9d10",
+   "source": "春秋左氏傳/文公",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "宣公",
+   "path": "chapters/0008.xhtml",
+   "chars": 10811,
+   "words": 2631,
+   "bytes": 43698,
+   "sha256": "a9b09106fb38437e760192bdf33d988325eccec22207bca959bcab7822dde13d",
+   "source": "春秋左氏傳/宣公",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "成公",
+   "path": "chapters/0009.xhtml",
+   "chars": 17422,
+   "words": 4040,
+   "bytes": 66996,
+   "sha256": "a6bf3a666670eda209059f0f7b5fa04c85c40d3abed1c04df51231d2042854f7",
+   "source": "春秋左氏傳/成公",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "襄公",
+   "path": "chapters/0010.xhtml",
+   "chars": 40863,
+   "words": 9512,
+   "bytes": 155505,
+   "sha256": "b86d47d0363566602fa2c0c44677d4b308546f13366ae9d127d5f1c253afdfc2",
+   "source": "春秋左氏傳/襄公",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "昭公",
+   "path": "chapters/0011.xhtml",
+   "chars": 48643,
+   "words": 11312,
+   "bytes": 184832,
+   "sha256": "e9efa05f26e50024f9c56ab5cefa435ecfa04e2542a7153118161f0b02350209",
+   "source": "春秋左氏傳/昭公",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "定公",
+   "path": "chapters/0012.xhtml",
+   "chars": 10914,
+   "words": 2533,
+   "bytes": 42299,
+   "sha256": "2b9d1f582a0fa397c8cd0c0757b1c80658d64b54268f754b13e6eb5a9d6685cb",
+   "source": "春秋左氏傳/定公",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "哀公",
+   "path": "chapters/0013.xhtml",
+   "chars": 17520,
+   "words": 4136,
+   "bytes": 67638,
+   "sha256": "d1d58dff2f66b4c5fe4a395eb99b1c304880748ab594a533138aa5fab9095b13",
+   "source": "春秋左氏傳/哀公",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "全覽",
+   "path": "chapters/0014.xhtml",
+   "chars": 198614,
+   "words": 46991,
+   "bytes": 774478,
+   "sha256": "7810ad45f3226a785676f6e91d89749c2c34f1a0bf96c04dd738f8e4d18ea68b",
+   "source": "春秋左氏傳/全覽",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "zuozhuan.epub",
+  "bytes": 656129,
+  "sha256": "d32fc3c2da0d182f3d25a9a6c9af7cb44458e9f111fef72d8ea4d4588934a85b"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "id": "rashomon",
+ "title": "羅生門",
+ "aliases": [
+  "罗生门",
+  "Rashomon",
+  "芥川龙之介"
+ ],
+ "author": "芥川龍之介",
+ "dynasty": "1915",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 2,
+ "updated": "2026-10-28T03:52:44Z",
+ "content_hash": "00076f11902d66bef82becc7ab64dcadcfb5aa52b8bf3d959bb5aeb80fafac64",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "羅生門",
+  "url": "https://ja.wikisource.org/wiki/%E7%BE%85%E7%94%9F%E9%96%80"
+ },
+ "chars": 6042,
+ "words": 1268,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "羅生門",
+   "path": "chapters/0001.xhtml",
+   "chars": 6042,
+   "words": 1268,
+   "bytes": 22644,
+   "sha256": "f24f9f9678ee303a5630b5c3759903b0ae013e598ed661b68e8ee3541c53ebc2",
+   "source": "羅生門",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "rashomon.epub",
+  "bytes": 11983,
+  "sha256": "5a9dc047549c84f13bb863800f3beab07f465656f1faa9e65176edd15e5956f3"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "id": "wagahai-wa-neko-de-aru",
+ "title": "吾輩は猫である",
+ "aliases": [
+  "我是猫",
+  "夏目漱石 我是猫",
+  "I Am a Cat"
+ ],
+ "author": "夏目漱石",
+ "dynasty": "1905",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:43Z",
+ "content_hash": "f7bef111b7de8c83e2a5cfb7f32e00f14c2bdd24078228e51d49883cf7234c02",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "吾輩は猫である",
+  "url": "https://ja.wikisource.org/wiki/%E5%90%BE%E8%BC%A9%E3%81%AF%E7%8C%AB%E3%81%A7%E3%81%82%E3%82%8B"
+ },
+ "chars": 324821,
+ "words": 36550,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "吾輩は猫である",
+   "path": "chapters/0001.xhtml",
+   "chars": 324821,
+   "words": 36550,
+   "bytes": 1114400,
+   "sha256": "0dbea460d7a5414021cf30dda69540f0075745b7a4eb3541f688eda7e40d9bf3",
+   "source": "吾輩は猫である",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "wagahai-wa-neko-de-aru.epub",
+  "bytes": 390019,
+  "sha256": "6a849c6b3ee63362fa9e069b7d63bcaf2ff0392d30f7c7193ef867668720b300"
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "schema": 2,
+ "id": "happy-prince",
+ "title": "The Happy Prince and Other Tales",
+ "aliases": [
+  "快乐王子",
+  "王尔德童话",
+  "夜莺与玫瑰"
+ ],
+ "author": "Oscar Wilde",
+ "dynasty": "1888",
+ "category": "fiction",
+ "subcategory": "Fairy Tales",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:40Z",
+ "content_hash": "8422b985e8e8cb9ebf0f1c6f373e33a20570ba405ae6a8e90c84c1dc439cabba",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The_Happy_Prince_and_Other_Tales",
+  "url": "https://en.wikisource.org/wiki/The_Happy_Prince_and_Other_Tales"
+ },
+ "chars": 65312,
+ "words": 16197,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "The Happy Prince",
+   "path": "chapters/0001.xhtml",
+   "chars": 13967,
+   "words": 3479,
+   "bytes": 19254,
+   "sha256": "d5023bb38fe992fcd2e0f16de1dc8bb69a2900a9aa5575fd4fd744cbaf77ac7e",
+   "source": "The Happy Prince and Other Tales/The Happy Prince",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "The Nightingale and the Rose",
+   "path": "chapters/0002.xhtml",
+   "chars": 9272,
+   "words": 2335,
+   "bytes": 12981,
+   "sha256": "2a471224a6793f2399640f037ca26b8e92db8ae1d44b15ba580f3cee0654280a",
+   "source": "The Happy Prince and Other Tales/The Nightingale and the Rose",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "The Selfish Giant",
+   "path": "chapters/0003.xhtml",
+   "chars": 6638,
+   "words": 1657,
+   "bytes": 9198,
+   "sha256": "08701b29471678bf19765aa074a686d78913eda855c0c96b03084b4e88836ed7",
+   "source": "The Happy Prince and Other Tales/The Selfish Giant",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "The Devoted Friend",
+   "path": "chapters/0004.xhtml",
+   "chars": 17196,
+   "words": 4335,
+   "bytes": 23828,
+   "sha256": "32af225c3027672a6c48211ab23af4356f5ac2671e6bee2b6d49f883fd9f5801",
+   "source": "The Happy Prince and Other Tales/The Devoted Friend",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "The Remarkable Rocket",
+   "path": "chapters/0005.xhtml",
+   "chars": 18239,
+   "words": 4391,
+   "bytes": 24878,
+   "sha256": "59d79c0fa8de3ec3eea1a79969f7898076f80c28a086ca7785b3e6d4d3d27e35",
+   "source": "The Happy Prince and Other Tales/The Remarkable Rocket",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "happy-prince.epub",
+  "bytes": 38623,
+  "sha256": "0a82f5289eb3de9bd4a01496486d642dfb83c097b47cf0f1881d2e65c63aef9b"
+ }
+}

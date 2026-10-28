@@ -1,0 +1,130 @@
+{
+ "schema": 2,
+ "id": "liezi",
+ "title": "列子",
+ "aliases": [
+  "列子",
+  "冲虚真经",
+  "Liezi"
+ ],
+ "author": "列禦寇",
+ "dynasty": "戰國",
+ "category": "zi",
+ "subcategory": "道家",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:42:34Z",
+ "content_hash": "62373d251ca3b50e19e91ebe5414ceac7b5a9e50e24fe96db56fd2fde8c11b34",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "列子",
+  "url": "https://zh.wikisource.org/wiki/%E5%88%97%E5%AD%90"
+ },
+ "chars": 30729,
+ "words": 6185,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "天瑞篇",
+   "path": "chapters/0001.xhtml",
+   "chars": 3034,
+   "words": 644,
+   "bytes": 11802,
+   "sha256": "8ed5910f3da5a0c125dc4169527b1bebbecbc6d814a4e139bc6b8a095e8ed6ef",
+   "source": "列子/天瑞篇",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "黃帝篇",
+   "path": "chapters/0002.xhtml",
+   "chars": 5350,
+   "words": 1078,
+   "bytes": 20327,
+   "sha256": "5589420943bded733e19474bd23f7fc8bcbb8aed58878d260974b3b86d108d6e",
+   "source": "列子/黃帝篇",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "周穆王篇",
+   "path": "chapters/0003.xhtml",
+   "chars": 2693,
+   "words": 540,
+   "bytes": 10323,
+   "sha256": "2e6e5ac49e0d5b9e594b08afd96a07fd25fb70be7d376d3a65b5666cf247620d",
+   "source": "列子/周穆王篇",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "仲尼篇",
+   "path": "chapters/0004.xhtml",
+   "chars": 3231,
+   "words": 636,
+   "bytes": 12578,
+   "sha256": "cad6e29940c627d8806355da1a182380d6fe1930e663af52a79f04009c06b8b2",
+   "source": "列子/仲尼篇",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "湯問篇",
+   "path": "chapters/0005.xhtml",
+   "chars": 4823,
+   "words": 952,
+   "bytes": 18217,
+   "sha256": "1e1bd2f9839d51c1cf269d584f2aaca7728caec26c26737fca0ae4ec5cb38005",
+   "source": "列子/湯問篇",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "力命篇",
+   "path": "chapters/0006.xhtml",
+   "chars": 3000,
+   "words": 610,
+   "bytes": 11588,
+   "sha256": "4addac49989df44e37942cca2e54de41d6ea9a21209521276d065b8a9b580410",
+   "source": "列子/力命篇",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "楊朱篇",
+   "path": "chapters/0007.xhtml",
+   "chars": 4041,
+   "words": 826,
+   "bytes": 15485,
+   "sha256": "9cff321d4c9e8ce6dbd20f57be5115efba98dc655673e63288d61112c01f72af",
+   "source": "列子/楊朱篇",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "說符篇",
+   "path": "chapters/0008.xhtml",
+   "chars": 4557,
+   "words": 899,
+   "bytes": 17673,
+   "sha256": "f4294dfcea5945f2abc8aa93c72c7a68e60c1a0b22a7a5e94ea5839313f029dc",
+   "source": "列子/說符篇",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "liezi.epub",
+  "bytes": 62056,
+  "sha256": "5d3621a748a5cfcb7aac0a750a43ab4efc43b2ee30b469e5cf357625c8438959"
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "fusheng-liuji",
+ "title": "浮生六記",
+ "aliases": [
+  "浮生六记",
+  "沈复",
+  "芸娘"
+ ],
+ "author": "沈復",
+ "dynasty": "清",
+ "category": "fiction",
+ "subcategory": "清人散文",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:29Z",
+ "content_hash": "54a90fb55c8822c2b550d29d4ed4af9c7881aa05555a617a954c7a811802c203",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "浮生六記",
+  "url": "https://zh.wikisource.org/wiki/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%A8%98"
+ },
+ "chars": 47803,
+ "words": 9428,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "閨房記樂",
+   "path": "chapters/0001.xhtml",
+   "chars": 7132,
+   "words": 1391,
+   "bytes": 27082,
+   "sha256": "5b058b5ddc6441d097685f2b1f37b8157ee3b279cf6545641e576002f26e8590",
+   "source": "浮生六記/卷一 閨房記樂",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "閑情記趣",
+   "path": "chapters/0002.xhtml",
+   "chars": 3956,
+   "words": 767,
+   "bytes": 14838,
+   "sha256": "83191814a129508e524f6158f30e9117df8dbe5437de0486e7e7300861efc8c2",
+   "source": "浮生六記/卷二 閑情記趣",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "坎坷記愁",
+   "path": "chapters/0003.xhtml",
+   "chars": 6850,
+   "words": 1285,
+   "bytes": 25648,
+   "sha256": "b9195397721032fdb7c04db2e50e4613f22e90b3f282b6e76b75b2fe74199306",
+   "source": "浮生六記/卷三 坎坷記愁",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "浪遊記快",
+   "path": "chapters/0004.xhtml",
+   "chars": 11763,
+   "words": 2227,
+   "bytes": 43441,
+   "sha256": "f55589c9deecb388ee2f65ee383eb076d3f11bc8a04008fefa872b401e99991d",
+   "source": "浮生六記/卷四 浪遊記快",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "中山記歷 (偽續)",
+   "path": "chapters/0005.xhtml",
+   "chars": 11788,
+   "words": 2527,
+   "bytes": 44657,
+   "sha256": "4eed116045a4b8fb142ec9563c81dc0dc33e907af5581488764e8d0e687aec37",
+   "source": "浮生六記/卷五 中山記歷",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "養生記道 (偽續)",
+   "path": "chapters/0006.xhtml",
+   "chars": 6314,
+   "words": 1231,
+   "bytes": 24179,
+   "sha256": "7abda631ffbd510c0400ed8a410d8c3c70da92094fd3eb2db712c198a617655e",
+   "source": "浮生六記/卷六 養生記道",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "fusheng-liuji.epub",
+  "bytes": 101482,
+  "sha256": "8fcd2b30e509cafb496e73d63878c8874ef45ca220aa29077f1a925551b96540"
+ }
+}

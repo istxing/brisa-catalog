@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "id": "tangshi-sanbaishou",
+ "title": "唐詩三百首",
+ "aliases": [
+  "唐诗三百首",
+  "Three Hundred Tang Poems"
+ ],
+ "author": "蘅塘退士 編",
+ "dynasty": "清",
+ "category": "ji",
+ "subcategory": "詩選",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:22Z",
+ "content_hash": "31d9389ef305423c8479b6ce7f88cddc402beb2262e1f423e983a3e0b34a1ddf",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "唐詩三百首",
+  "url": "https://zh.wikisource.org/wiki/%E5%94%90%E8%A9%A9%E4%B8%89%E7%99%BE%E9%A6%96"
+ },
+ "chars": 2542,
+ "words": 361,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "唐詩三百首",
+   "path": "chapters/0001.xhtml",
+   "chars": 2542,
+   "words": 361,
+   "bytes": 11104,
+   "sha256": "6fa290cdda6d3c10940f17996c8f46dca45a4ecfe021d014972b46da239ca85e",
+   "source": "唐詩三百首",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "tangshi-sanbaishou.epub",
+  "bytes": 8433,
+  "sha256": "74e3d6503e8259d193eacf7bda901d697f6aacddec6ec06df2fa172f8e54ab19"
+ }
+}

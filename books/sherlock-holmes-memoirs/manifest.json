@@ -1,0 +1,162 @@
+{
+ "schema": 2,
+ "id": "sherlock-holmes-memoirs",
+ "title": "The Memoirs of Sherlock Holmes",
+ "aliases": [
+  "福尔摩斯回忆录",
+  "最后一案"
+ ],
+ "author": "Arthur Conan Doyle",
+ "dynasty": "1894",
+ "category": "fiction",
+ "subcategory": "Mystery",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:31Z",
+ "content_hash": "f8861d71d0acfced7788d6c2528ac7f5854c08a800c5c0e8a7f731d69d85147b",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "Memoirs of Sherlock Holmes 1894 Burt",
+  "url": "https://en.wikisource.org/wiki/Memoirs_of_Sherlock_Holmes_1894_Burt"
+ },
+ "chars": 364950,
+ "words": 87721,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "SILVER BLAZE",
+   "path": "chapters/0001.xhtml",
+   "chars": 40688,
+   "words": 9576,
+   "bytes": 54436,
+   "sha256": "6e277447da13f3a0b4c87c509ca326bd2d7162f279b30237979069b58585263b",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/Silver Blaze",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "THE YELLOW FACE",
+   "path": "chapters/0002.xhtml",
+   "chars": 30032,
+   "words": 7530,
+   "bytes": 40557,
+   "sha256": "80b9281a5486a5a91306480192124e0c7104f0d07304e92a1cb783faddec5487",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Yellow Face",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "THE STOCK-BROKER'S CLERK",
+   "path": "chapters/0003.xhtml",
+   "chars": 27846,
+   "words": 6784,
+   "bytes": 38107,
+   "sha256": "bd6ecd3be4db6c31e9bdbd04c038ed749e962b01b0403d140c2de9cfbcaf0f19",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Stockbroker's Clerk",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "THE \"GLORIA SCOTT\"",
+   "path": "chapters/0004.xhtml",
+   "chars": 31774,
+   "words": 7845,
+   "bytes": 42860,
+   "sha256": "7e8067f94ec70dd0184b20329a52b974eeaf533763671d1f4ed908de2f5ac75b",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Gloria Scott",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "THE MUSGRAVE RITUAL",
+   "path": "chapters/0005.xhtml",
+   "chars": 31519,
+   "words": 7576,
+   "bytes": 42034,
+   "sha256": "3d0feaf4db47ff54fcb39f7d7e79aafc3a1a13495d67118e8191f9ff358aa05f",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Musgrave Ritual",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "THE REIGATE PUZZLE",
+   "path": "chapters/0006.xhtml",
+   "chars": 30431,
+   "words": 7196,
+   "bytes": 41055,
+   "sha256": "bfdedb540b6479b084aafe41319f51f67dcd6d3602efa99e20fb1d25c9861282",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Reigate Puzzle",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "THE CROOKED MAN",
+   "path": "chapters/0007.xhtml",
+   "chars": 29541,
+   "words": 7123,
+   "bytes": 40731,
+   "sha256": "29dc2c4e1ef2bb76e4243cedfc47f97dab819e2790464540cf6157285d278785",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Crooked Man",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "THE RESIDENT PATIENT",
+   "path": "chapters/0008.xhtml",
+   "chars": 31099,
+   "words": 7291,
+   "bytes": 42913,
+   "sha256": "a7275e7acce5565597f51c685be80fa4565277f4814975f332775b5e8f13aaa0",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Resident Patient",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "THE GREEK INTERPRETER",
+   "path": "chapters/0009.xhtml",
+   "chars": 29718,
+   "words": 7012,
+   "bytes": 40124,
+   "sha256": "c3212ccfdd3db79f067f127bbec89e3fd048d533a77b26acca9f60b8f1728ef2",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Greek Interpreter",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "THE NAVAL TREATY",
+   "path": "chapters/0010.xhtml",
+   "chars": 52300,
+   "words": 12626,
+   "bytes": 70743,
+   "sha256": "f9aadba3c243066cc0b49efa088f09214305125e4734df27995ac6857bfa72ae",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Naval Treaty",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "THE FINAL PROBLEM",
+   "path": "chapters/0011.xhtml",
+   "chars": 30002,
+   "words": 7162,
+   "bytes": 39793,
+   "sha256": "9656dc51037c5e4ac432b1b0afca76bee48b59588e2a08e7cf8e9e90c57f81af",
+   "source": "Memoirs of Sherlock Holmes 1894 Burt/The Final Problem",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "sherlock-holmes-memoirs.epub",
+  "bytes": 199076,
+  "sha256": "35a857f91d6d30bec0933be72ac5d41244d05a341c93f42d6d44cb0c3ca5289c"
+ }
+}

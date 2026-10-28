@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body { margin: 0 5%; line-height: 1.8; text-align: justify; }
+h1, h2, h3 { line-height: 1.4; font-weight: bold; }
+h1 { font-size: 1.6em; text-align: center; margin: 2em 0 1em; }
+h2 { font-size: 1.3em; margin: 1.5em 0 1em; }
+h3 { font-size: 1.1em; margin: 1.2em 0 0.6em; }
+p { margin: 0 0 0.6em; text-indent: 1em; }
+ruby rt { font-size: 0.65em; }
+small { font-size: 0.8em; }
+.meta { text-indent: 0; text-align: center; color: #666; }
+.about p { text-indent: 0; }

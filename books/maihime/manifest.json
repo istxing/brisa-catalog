@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "id": "maihime",
+ "title": "舞姫",
+ "aliases": [
+  "舞姬",
+  "森鸥外"
+ ],
+ "author": "森鴎外",
+ "dynasty": "1890",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:44Z",
+ "content_hash": "a959e6ab69dbb1a9b26e3111cab8a4517a857d01d4bcc0c36a0fcf4eefc6b9ca",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "舞姫",
+  "url": "https://ja.wikisource.org/wiki/%E8%88%9E%E5%A7%AB"
+ },
+ "chars": 14259,
+ "words": 1110,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "舞姫",
+   "path": "chapters/0001.xhtml",
+   "chars": 14259,
+   "words": 1110,
+   "bytes": 47215,
+   "sha256": "af089a7f30b9093e13a42f8f1f161fa4194440e0887e2e126445d5fa80d1a5a4",
+   "source": "舞姫",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "maihime.epub",
+  "bytes": 23457,
+  "sha256": "a7a4d8f0994fd842ded8ac9c613386c6e005d8a3d5a62e2e424622328d626ced"
+ }
+}

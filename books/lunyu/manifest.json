@@ -1,0 +1,261 @@
+{
+ "schema": 2,
+ "id": "lunyu",
+ "title": "論語",
+ "aliases": [
+  "论语",
+  "The Analects"
+ ],
+ "author": "孔子弟子及再傳弟子",
+ "dynasty": "春秋",
+ "category": "jing",
+ "subcategory": "四書",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:14:12Z",
+ "content_hash": "8812aab60854bc2d97599aa81423fcc7744177f10b2c074abd457075a412f6c7",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "論語",
+  "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E"
+ },
+ "chars": 15962,
+ "words": 4114,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "學而第一",
+   "path": "chapters/0001.xhtml",
+   "chars": 497,
+   "words": 123,
+   "bytes": 2507,
+   "sha256": "6645d6497d1a63faf2874985b0bad1f9f834adffd5bdd8b79018a562b85f6a8c",
+   "source": "論語/學而第一",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "爲政第二",
+   "path": "chapters/0002.xhtml",
+   "chars": 582,
+   "words": 155,
+   "bytes": 2994,
+   "sha256": "d2a2601f12bbafd0a9e092c374c18a5bf1c595082d5bc3f1fbd8b5f6ed85ca13",
+   "source": "論語/爲政第二",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "八佾第三",
+   "path": "chapters/0003.xhtml",
+   "chars": 689,
+   "words": 184,
+   "bytes": 3486,
+   "sha256": "e2b8113396c251666f5464fca3a3d0a7a3693eb52723c0dc71a6cb69dc7faf89",
+   "source": "論語/八佾第三",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "里仁第四",
+   "path": "chapters/0004.xhtml",
+   "chars": 505,
+   "words": 128,
+   "bytes": 2671,
+   "sha256": "1c3f772d597a8ef3091a6f343b22209ff183b5445b6ea01ef79e9d02820c387e",
+   "source": "論語/里仁第四",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "公冶長第五",
+   "path": "chapters/0005.xhtml",
+   "chars": 868,
+   "words": 227,
+   "bytes": 4246,
+   "sha256": "a66c46aaf5c94642907727b100f1e435a650d999ebe03fe18fe6b98e4eeb4b45",
+   "source": "論語/公冶長第五",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "雍也第六",
+   "path": "chapters/0006.xhtml",
+   "chars": 819,
+   "words": 208,
+   "bytes": 3977,
+   "sha256": "d5cb91f38e615d9218c6caf5e3654d31c6e0cf8b6ed598003d647ff7dba3c51d",
+   "source": "論語/雍也第六",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "述而第七",
+   "path": "chapters/0007.xhtml",
+   "chars": 877,
+   "words": 231,
+   "bytes": 4283,
+   "sha256": "1b5b4acc704f7424943ae39ac7e95082b64bcba686354c014eaaee2a0cec8ea6",
+   "source": "論語/述而第七",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "泰伯第八",
+   "path": "chapters/0008.xhtml",
+   "chars": 617,
+   "words": 156,
+   "bytes": 3021,
+   "sha256": "22973fd67f80d2da538bd3733d7bdf4dbcfa6010d5dff5afb9bcdb61f30aa4ba",
+   "source": "論語/泰伯第八",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "子罕第九",
+   "path": "chapters/0009.xhtml",
+   "chars": 806,
+   "words": 201,
+   "bytes": 3877,
+   "sha256": "c961ba79beb2ea7dd43572167c5af4f3066da2ae42d6caf7fc0199b9f96bcf7a",
+   "source": "論語/子罕第九",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "鄉黨第十",
+   "path": "chapters/0010.xhtml",
+   "chars": 645,
+   "words": 180,
+   "bytes": 3045,
+   "sha256": "831072201a8f2fca144a00338f30a5f4da680b54387be549055be270e785dd30",
+   "source": "論語/鄉黨第十",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "先進第十一",
+   "path": "chapters/0011.xhtml",
+   "chars": 1054,
+   "words": 284,
+   "bytes": 5048,
+   "sha256": "1fd2496d35cc26d6d79598f3e1b9e6b984ea113278fda94d2af8ec2d68267f7e",
+   "source": "論語/先進第十一",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "顏淵第十二",
+   "path": "chapters/0012.xhtml",
+   "chars": 992,
+   "words": 296,
+   "bytes": 4805,
+   "sha256": "9bb6d34d2f7b23527601e6c158786d67f87de2df5b83d00e49e122bd33081c6e",
+   "source": "論語/顏淵第十二",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "子路第十三",
+   "path": "chapters/0013.xhtml",
+   "chars": 1038,
+   "words": 279,
+   "bytes": 4995,
+   "sha256": "b3ad507c3269b64d7fb025fc50ea5ffc45fc241c4f43de36cdd864ce8e5ab98d",
+   "source": "論語/子路第十三",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "憲問第十四",
+   "path": "chapters/0014.xhtml",
+   "chars": 1343,
+   "words": 336,
+   "bytes": 6301,
+   "sha256": "1f22bef4fdcf77cef030f99c01d569c5289abafaa7e609513d5fbc3519f034bf",
+   "source": "論語/憲問第十四",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "衞靈公第十五",
+   "path": "chapters/0015.xhtml",
+   "chars": 905,
+   "words": 237,
+   "bytes": 4449,
+   "sha256": "a41ae3fc7d9f5361210ed023e057bfa00cf75262ce4a9379d4b0b255eec248fa",
+   "source": "論語/衞靈公第十五",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "季氏第十六",
+   "path": "chapters/0016.xhtml",
+   "chars": 874,
+   "words": 211,
+   "bytes": 3967,
+   "sha256": "d96ade39e7d34680303525a5c5a7865117c1924ee6d0f8012659c7b426bb43f1",
+   "source": "論語/季氏第十六",
+   "source_revid": 1
+  },
+  {
+   "index": 17,
+   "title": "陽貨第十七",
+   "path": "chapters/0017.xhtml",
+   "chars": 1020,
+   "words": 250,
+   "bytes": 4719,
+   "sha256": "f031c4310b92493bf89813d542a7bc8e3214ac1a9b870a39fe0766b960f62834",
+   "source": "論語/陽貨第十七",
+   "source_revid": 1
+  },
+  {
+   "index": 18,
+   "title": "微子第十八",
+   "path": "chapters/0018.xhtml",
+   "chars": 618,
+   "words": 158,
+   "bytes": 2958,
+   "sha256": "b81f0e7e2d7a109923849732c1d994324520422c7fe590ca61475ae17841910e",
+   "source": "論語/微子第十八",
+   "source_revid": 1
+  },
+  {
+   "index": 19,
+   "title": "子張第十九",
+   "path": "chapters/0019.xhtml",
+   "chars": 842,
+   "words": 180,
+   "bytes": 3868,
+   "sha256": "8da038ddd6e25b324794ca122847b769407264cd78a9682960e3ccbd1d1d5c6d",
+   "source": "論語/子張第十九",
+   "source_revid": 1
+  },
+  {
+   "index": 20,
+   "title": "堯曰第二十",
+   "path": "chapters/0020.xhtml",
+   "chars": 371,
+   "words": 90,
+   "bytes": 1881,
+   "sha256": "7669b2b850752df843f8bd0d0fc6e762a483745444cab34e5b1115841c32273f",
+   "source": "論語/堯曰第二十",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "lunyu.epub",
+  "bytes": 43803,
+  "sha256": "6767e80578e543434db01cf6d29f4e40e67f28c9652c8dcdb0665b0a9e8f7af7"
+ }
+}

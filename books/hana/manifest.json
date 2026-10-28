@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "id": "hana",
+ "title": "鼻",
+ "aliases": [
+  "鼻",
+  "芥川龙之介 鼻"
+ ],
+ "author": "芥川龍之介",
+ "dynasty": "1916",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:44Z",
+ "content_hash": "c373f1ae6858afc9377b3695c94181ccf5f56fd3097e339b9b0bb5922a2b769f",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "鼻",
+  "url": "https://ja.wikisource.org/wiki/%E9%BC%BB"
+ },
+ "chars": 5748,
+ "words": 718,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "鼻",
+   "path": "chapters/0001.xhtml",
+   "chars": 5748,
+   "words": 718,
+   "bytes": 20224,
+   "sha256": "8593ddcb33c077727788248991cb8a7900eff911c7bbd670a599fdaee02b863d",
+   "source": "鼻",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "hana.epub",
+  "bytes": 11250,
+  "sha256": "b108cff56fd4a496f103f36d11657b2572990199eb7b4714d751d08c23e940b7"
+ }
+}

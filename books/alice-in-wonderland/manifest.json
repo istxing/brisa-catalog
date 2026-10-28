@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "id": "alice-in-wonderland",
+ "title": "Alice's Adventures in Wonderland",
+ "aliases": [
+  "爱丽丝梦游仙境",
+  "爱丽丝漫游奇境记"
+ ],
+ "author": "Lewis Carroll",
+ "dynasty": "1865",
+ "category": "fiction",
+ "subcategory": "Fantasy",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:40Z",
+ "content_hash": "3143bd90163c3c3db6d9ffe2228bdf751bbbac6caa4391f2d13248e254f58bca",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "Alice's Adventures in Wonderland (1866)",
+  "url": "https://en.wikisource.org/wiki/Alice%27s_Adventures_in_Wonderland_%281866%29"
+ },
+ "chars": 103375,
+ "words": 25444,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "Down the rabbit-hole",
+   "path": "chapters/0001.xhtml",
+   "chars": 8664,
+   "words": 2159,
+   "bytes": 11925,
+   "sha256": "c3b102e9694e2ba529b4fa841ccbd45cd38df2d36f2279d50b5d1da2d9021ef8",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "The pool of tears",
+   "path": "chapters/0002.xhtml",
+   "chars": 8010,
+   "words": 2068,
+   "bytes": 11226,
+   "sha256": "22fbaa4556f468ef74e0846fc88ab6f3c1242cb84815333497710c3be921571d",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "A caucus-race and a long tale",
+   "path": "chapters/0003.xhtml",
+   "chars": 6616,
+   "words": 1629,
+   "bytes": 9517,
+   "sha256": "9b89b993df89850c8b653e778e886e0124733e5505436a7d37c1ed4217502337",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "The rabbit sends in a little bill",
+   "path": "chapters/0004.xhtml",
+   "chars": 10552,
+   "words": 2669,
+   "bytes": 14679,
+   "sha256": "7ba0a149476267e2627f6a5b953b40a95b5fcff0e2d850e5a61246366335564e",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "Advice from a caterpillar",
+   "path": "chapters/0005.xhtml",
+   "chars": 7819,
+   "words": 1903,
+   "bytes": 11221,
+   "sha256": "8ebe291774a0c5f106d1f5caa7fbd737846ba60c0004fa5aba4690a123551822",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "Pig and pepper",
+   "path": "chapters/0006.xhtml",
+   "chars": 10160,
+   "words": 2542,
+   "bytes": 14388,
+   "sha256": "17599124e4dc6b3aba42032463986ae118fda8f58eca810d0fe370c93b0d0324",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "A mad tea-party",
+   "path": "chapters/0007.xhtml",
+   "chars": 9294,
+   "words": 2272,
+   "bytes": 13583,
+   "sha256": "d53eb8fd9ee29c40b14cbbe6e3c74114b23a0464dbf14be43063a7a1afcd7bf2",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 7",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "The queen's croquet-ground",
+   "path": "chapters/0008.xhtml",
+   "chars": 10409,
+   "words": 2498,
+   "bytes": 14553,
+   "sha256": "e211c8924d9d5edd984047a8ee49386e44eee5a1b6c3818286dcd7cdb2a904f4",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 8",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "The mock-turtle's story",
+   "path": "chapters/0009.xhtml",
+   "chars": 9415,
+   "words": 2295,
+   "bytes": 13618,
+   "sha256": "83ff599f996b6ed9098a5dc5f1e2702387d0d7b0560d9fb45e62a0018c42caac",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 9",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "The lobster quadrille",
+   "path": "chapters/0010.xhtml",
+   "chars": 6513,
+   "words": 1568,
+   "bytes": 9630,
+   "sha256": "3a71e7508f08f11dc7adb46c0e5e227f3f8b65f25d1ba74aa0676636f7409b19",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 10",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "Who stole the tarts?",
+   "path": "chapters/0011.xhtml",
+   "chars": 7686,
+   "words": 1859,
+   "bytes": 11100,
+   "sha256": "d3ab31c859508f9cae5ea37887915d20de3e158de41459c5486320845a60668d",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 11",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "Alice's evidence",
+   "path": "chapters/0012.xhtml",
+   "chars": 8237,
+   "words": 1982,
+   "bytes": 11758,
+   "sha256": "f0b2b273c92288f1501727e4f2cb221da1d8c31901abc00dbca3378b5e42f8fa",
+   "source": "Alice's Adventures in Wonderland (1866)/Chapter 12",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "alice-in-wonderland.epub",
+  "bytes": 65590,
+  "sha256": "70a85dec95e1af72f61f2f1f9ae2d199fb702b672830e888e85ae0c19abfb30f"
+ }
+}

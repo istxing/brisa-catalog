@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "id": "songci-sanbaishou",
+ "title": "宋詞三百首",
+ "aliases": [
+  "宋词三百首",
+  "上彊村民"
+ ],
+ "author": "上彊村民 編",
+ "dynasty": "清末",
+ "category": "ji",
+ "subcategory": "詞選",
+ "lang": "zh-Hant",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:22Z",
+ "content_hash": "e94574771818a1ddd609d58c0df2b6558962892f981dc401d564558bc57a125c",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "維基文庫",
+  "page": "宋詞三百首",
+  "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E8%A9%9E%E4%B8%89%E7%99%BE%E9%A6%96"
+ },
+ "chars": 26470,
+ "words": 5800,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "宋詞三百首",
+   "path": "chapters/0001.xhtml",
+   "chars": 26470,
+   "words": 5800,
+   "bytes": 111712,
+   "sha256": "290a465eb81210e5109b8342f06b9ad7865a6e7d94a3019025eb2831970fa62e",
+   "source": "宋詞三百首",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "songci-sanbaishou.epub",
+  "bytes": 57141,
+  "sha256": "563129fbbf9f9f16e963790270c09a7b2924e44f735c593907716f3302347fe5"
+ }
+}

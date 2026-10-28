@@ -1,0 +1,217 @@
+{
+ "schema": 2,
+ "id": "the-time-machine",
+ "title": "The Time Machine",
+ "aliases": [
+  "时间机器",
+  "威尔斯"
+ ],
+ "author": "H. G. Wells",
+ "dynasty": "1895",
+ "category": "fiction",
+ "subcategory": "Sci-Fi",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T01:24:02Z",
+ "content_hash": "f0459fefcd819df9029e4995531a7130342d0accffebf60f86b51ed04570efbc",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The Time Machine (Heinemann text)",
+  "url": "https://en.wikisource.org/wiki/The_Time_Machine_%28Heinemann_text%29"
+ },
+ "chars": 140964,
+ "words": 32490,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "I",
+   "path": "chapters/0001.xhtml",
+   "chars": 7647,
+   "words": 1685,
+   "bytes": 10544,
+   "sha256": "c4b6b9142d2770fd4b64f378b4f0dde9df100da725543ad4f22454c78f077f97",
+   "source": "The Time Machine (Heinemann text)/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "II",
+   "path": "chapters/0002.xhtml",
+   "chars": 5864,
+   "words": 1343,
+   "bytes": 8069,
+   "sha256": "d6568d23212dd5ad3e6a379aba99472c252b8aa72e7133235d2d6da675e22f9a",
+   "source": "The Time Machine (Heinemann text)/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "III",
+   "path": "chapters/0003.xhtml",
+   "chars": 8618,
+   "words": 2004,
+   "bytes": 11671,
+   "sha256": "9733aa138a5a17f07527192862d478b844e18e5f529baebef13cec5d8ca04862",
+   "source": "The Time Machine (Heinemann text)/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "IV",
+   "path": "chapters/0004.xhtml",
+   "chars": 9231,
+   "words": 2101,
+   "bytes": 12151,
+   "sha256": "209b824187982e7d269beb1ec6f7666aae48d92c01d3fe5429b68f57749ac5ab",
+   "source": "The Time Machine (Heinemann text)/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "V",
+   "path": "chapters/0005.xhtml",
+   "chars": 7417,
+   "words": 1665,
+   "bytes": 9792,
+   "sha256": "833192386ff8510f6f7247ccac051261f8c3ae0dda2abaca5bdb6a79512417af",
+   "source": "The Time Machine (Heinemann text)/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "VI",
+   "path": "chapters/0006.xhtml",
+   "chars": 10033,
+   "words": 2205,
+   "bytes": 13097,
+   "sha256": "adcf78c1a0de63385e0e2960ac529f0df50bce292a5083ea5ae30fa25aad3219",
+   "source": "The Time Machine (Heinemann text)/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "VII",
+   "path": "chapters/0007.xhtml",
+   "chars": 9783,
+   "words": 2334,
+   "bytes": 12980,
+   "sha256": "4dc9868f43d9c9f766bed94a0b9cd4833b8f4415943360675e796fa40c0ee965",
+   "source": "The Time Machine (Heinemann text)/Chapter 7",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "VIII",
+   "path": "chapters/0008.xhtml",
+   "chars": 18515,
+   "words": 4201,
+   "bytes": 23959,
+   "sha256": "a30faee11f6724f2bf023bf5e1c3f1f60c3f7abedc47faffe8435088a5e5cace",
+   "source": "The Time Machine (Heinemann text)/Chapter 8",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "IX",
+   "path": "chapters/0009.xhtml",
+   "chars": 9310,
+   "words": 2162,
+   "bytes": 12263,
+   "sha256": "7382d1696290a497e716e97023be518b76e690aeca90aeb19a4b360f4809f14e",
+   "source": "The Time Machine (Heinemann text)/Chapter 9",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "X",
+   "path": "chapters/0010.xhtml",
+   "chars": 10887,
+   "words": 2531,
+   "bytes": 14251,
+   "sha256": "a5c8518a960872ee6d56b4dc8e2a98ae49f0536fd8d7a1bc4349289ff10b6bec",
+   "source": "The Time Machine (Heinemann text)/Chapter 10",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "XI",
+   "path": "chapters/0011.xhtml",
+   "chars": 10725,
+   "words": 2456,
+   "bytes": 14043,
+   "sha256": "0378a5b23d79f056d85a82cfea8f8db9c845baecd72a35b9f4f69568c146ab6b",
+   "source": "The Time Machine (Heinemann text)/Chapter 11",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "XII",
+   "path": "chapters/0012.xhtml",
+   "chars": 10944,
+   "words": 2646,
+   "bytes": 14468,
+   "sha256": "41be9046c8750c51407e48cb3de0ae7513049fe4461a0c9f554cde2b91509213",
+   "source": "The Time Machine (Heinemann text)/Chapter 12",
+   "source_revid": 1
+  },
+  {
+   "index": 13,
+   "title": "XIII",
+   "path": "chapters/0013.xhtml",
+   "chars": 4718,
+   "words": 1077,
+   "bytes": 6430,
+   "sha256": "a057f5998a962b08b1b881fe6ff2d8832463e374510ece14bb80158a576b43c0",
+   "source": "The Time Machine (Heinemann text)/Chapter 13",
+   "source_revid": 1
+  },
+  {
+   "index": 14,
+   "title": "XIV",
+   "path": "chapters/0014.xhtml",
+   "chars": 8221,
+   "words": 1908,
+   "bytes": 10863,
+   "sha256": "49a7a1b297cce9e1320b295b4f64a6f2a147ea68600b75357c22e93cffc704e0",
+   "source": "The Time Machine (Heinemann text)/Chapter 14",
+   "source_revid": 1
+  },
+  {
+   "index": 15,
+   "title": "XV",
+   "path": "chapters/0015.xhtml",
+   "chars": 2083,
+   "words": 485,
+   "bytes": 3062,
+   "sha256": "b23863ecb9e1bf0debdc3aaf300849a3defad12119ed6b5f7d1c56d4ddc7be30",
+   "source": "The Time Machine (Heinemann text)/Chapter 15",
+   "source_revid": 1
+  },
+  {
+   "index": 16,
+   "title": "XVI",
+   "path": "chapters/0016.xhtml",
+   "chars": 6968,
+   "words": 1687,
+   "bytes": 9665,
+   "sha256": "f3d2ceedb272f8d26fe8d3d3aaa08a84534abe1d669ed76ed469bc7d2b0ad7e3",
+   "source": "The Time Machine (Heinemann text)/Chapter 16",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "the-time-machine.epub",
+  "bytes": 88477,
+  "sha256": "2d6a2a70394a46206f110912bf4e8e50ca31d10e922324fb9299d01e845c033d"
+ }
+}

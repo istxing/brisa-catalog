@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:lang:ja</id>
+<title>清風公版書庫 · 日本語</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="ja.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:kokoro</id>
+<title>こころ</title>
+<updated>2026-10-28T01:24:02Z</updated>
+<author><name>夏目漱石</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1914 · 夏目漱石 · 1 章 · 162949 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1914</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>162949</qf:chars>
+<qf:words>18211</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/kokoro/kokoro.epub" length="177016"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/kokoro/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:wagahai-wa-neko-de-aru</id>
+<title>吾輩は猫である</title>
+<updated>2026-10-28T03:52:43Z</updated>
+<author><name>夏目漱石</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1905 · 夏目漱石 · 1 章 · 324821 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1905</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>324821</qf:chars>
+<qf:words>36550</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/wagahai-wa-neko-de-aru/wagahai-wa-neko-de-aru.epub" length="390019"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/wagahai-wa-neko-de-aru/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:botchan</id>
+<title>坊っちゃん</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>夏目漱石</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1906 · 夏目漱石 · 1 章 · 90949 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1906</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>90949</qf:chars>
+<qf:words>11790</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/botchan/botchan.epub" length="110367"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/botchan/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:rashomon</id>
+<title>羅生門</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>芥川龍之介</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1915 · 芥川龍之介 · 1 章 · 6042 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1915</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>2</qf:revision>
+<qf:chars>6042</qf:chars>
+<qf:words>1268</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/rashomon/rashomon.epub" length="11983"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/rashomon/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:kumo-no-ito</id>
+<title>蜘蛛の糸</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>芥川龍之介</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1918 · 芥川龍之介 · 1 章 · 2851 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1918</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>2851</qf:chars>
+<qf:words>334</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/kumo-no-ito/kumo-no-ito.epub" length="7502"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/kumo-no-ito/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:hana</id>
+<title>鼻</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>芥川龍之介</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1916 · 芥川龍之介 · 1 章 · 5748 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1916</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>5748</qf:chars>
+<qf:words>718</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/hana/hana.epub" length="11250"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/hana/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:maihime</id>
+<title>舞姫</title>
+<updated>2026-10-28T03:52:44Z</updated>
+<author><name>森鴎外</name></author>
+<dc:language>ja</dc:language>
+<category term="fiction" label="文学小说"/>
+<summary>[日本語] · 1890 · 森鴎外 · 1 章 · 14259 字</summary>
+<qf:language>ja</qf:language>
+<qf:dynasty>1890</qf:dynasty>
+<qf:category>fiction</qf:category>
+<qf:subcategory>小説</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>14259</qf:chars>
+<qf:words>1110</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/maihime/maihime.epub" length="23457"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/maihime/manifest.json"/>
+</entry>
+</feed>

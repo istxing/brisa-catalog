@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "id": "sign-of-the-four",
+ "title": "The Sign of the Four",
+ "aliases": [
+  "四签名",
+  "福尔摩斯四签名"
+ ],
+ "author": "Arthur Conan Doyle",
+ "dynasty": "1890",
+ "category": "fiction",
+ "subcategory": "Mystery",
+ "lang": "en",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:30Z",
+ "content_hash": "7ccc264afc6542eed3337b10be468c68cd0034769b59c91e94a020c7b2b4b05c",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "Wikisource (English)",
+  "page": "The Sign of Four",
+  "url": "https://en.wikisource.org/wiki/The_Sign_of_Four"
+ },
+ "chars": 178405,
+ "words": 43122,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "THE SCIENCE OF DEDUCTION",
+   "path": "chapters/0001.xhtml",
+   "chars": 12936,
+   "words": 2948,
+   "bytes": 17373,
+   "sha256": "ee6ca16418e3320b77772022f748055a6211687951867db938d757b2b856594d",
+   "source": "The Sign of the Four/Chapter 1",
+   "source_revid": 1
+  },
+  {
+   "index": 2,
+   "title": "THE STATEMENT OF THE CASE",
+   "path": "chapters/0002.xhtml",
+   "chars": 7969,
+   "words": 1842,
+   "bytes": 11033,
+   "sha256": "1a467694ed4e1e98c7a57696bbfcd5483bc388d431654e56d58c8aa45469d015",
+   "source": "The Sign of the Four/Chapter 2",
+   "source_revid": 1
+  },
+  {
+   "index": 3,
+   "title": "IN QUEST OF A SOLUTION",
+   "path": "chapters/0003.xhtml",
+   "chars": 7615,
+   "words": 1734,
+   "bytes": 10324,
+   "sha256": "05954b43edf9fb2cdb44dd55f911b3e43707e99e99857c41261a13f24688cec2",
+   "source": "The Sign of the Four/Chapter 3",
+   "source_revid": 1
+  },
+  {
+   "index": 4,
+   "title": "THE STORY OF THE BALD-HEADED MAN",
+   "path": "chapters/0004.xhtml",
+   "chars": 16163,
+   "words": 3840,
+   "bytes": 21459,
+   "sha256": "167024f2e6032d0ad743a2fa7060703b0af0f1897fe0595552a74d8ad10d061f",
+   "source": "The Sign of the Four/Chapter 4",
+   "source_revid": 1
+  },
+  {
+   "index": 5,
+   "title": "THE TRAGEDY OF PONDICHERRY LODGE",
+   "path": "chapters/0005.xhtml",
+   "chars": 10857,
+   "words": 2619,
+   "bytes": 14966,
+   "sha256": "d157ff6dc8a3f92ee4caed98ca2f6d932a4276e2766ecf0e47de00ae50a2b13d",
+   "source": "The Sign of the Four/Chapter 5",
+   "source_revid": 1
+  },
+  {
+   "index": 6,
+   "title": "SHERLOCK HOLMES GIVES A DEMONSTRATION",
+   "path": "chapters/0006.xhtml",
+   "chars": 12911,
+   "words": 3125,
+   "bytes": 17901,
+   "sha256": "03b55b7d27e5471e37d438f782569bef4129859d5616059c395111b2f24f4b4a",
+   "source": "The Sign of the Four/Chapter 6",
+   "source_revid": 1
+  },
+  {
+   "index": 7,
+   "title": "THE EPISODE OF THE BARREL",
+   "path": "chapters/0007.xhtml",
+   "chars": 17946,
+   "words": 4180,
+   "bytes": 23997,
+   "sha256": "e0b7c33273dbc1f36cff24a51566e55826c6fbbf9cd0f8b14b88cb334aa47e0e",
+   "source": "The Sign of the Four/Chapter 7",
+   "source_revid": 1
+  },
+  {
+   "index": 8,
+   "title": "THE BAKER STREET IRREGULARS",
+   "path": "chapters/0008.xhtml",
+   "chars": 14149,
+   "words": 3343,
+   "bytes": 19387,
+   "sha256": "61e5728dffbd1645402ee82ecc7963477d69d1358a61a8c9e58153b60a94e8be",
+   "source": "The Sign of the Four/Chapter 8",
+   "source_revid": 1
+  },
+  {
+   "index": 9,
+   "title": "A BREAK IN THE CHAIN",
+   "path": "chapters/0009.xhtml",
+   "chars": 14639,
+   "words": 3629,
+   "bytes": 20241,
+   "sha256": "3f65c11c6d25cf7ddb9f4d4c073189c710f93918be0425e965f2ab2eda285d15",
+   "source": "The Sign of the Four/Chapter 9",
+   "source_revid": 1
+  },
+  {
+   "index": 10,
+   "title": "THE END OF THE ISLANDER",
+   "path": "chapters/0010.xhtml",
+   "chars": 13953,
+   "words": 3355,
+   "bytes": 18711,
+   "sha256": "1177e630a61f75b6ad9ffa6a7b52869625c09c89188261ce6ea9410f413808eb",
+   "source": "The Sign of the Four/Chapter 10",
+   "source_revid": 1
+  },
+  {
+   "index": 11,
+   "title": "THE GREAT AGRA TREASURE",
+   "path": "chapters/0011.xhtml",
+   "chars": 8693,
+   "words": 2194,
+   "bytes": 12090,
+   "sha256": "fe52ede1ac58ba3408dc13749085dc0319c3584e01a3a8ce6fac2dd169426347",
+   "source": "The Sign of the Four/Chapter 11",
+   "source_revid": 1
+  },
+  {
+   "index": 12,
+   "title": "THE STRANGE STORY OF JONATHAN SMALL",
+   "path": "chapters/0012.xhtml",
+   "chars": 40574,
+   "words": 10313,
+   "bytes": 54204,
+   "sha256": "49a5fabd0108da9524605ddcaecaf77ed8a0a5c4c654859f685470b78d790a1a",
+   "source": "The Sign of the Four/Chapter 12",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "sign-of-the-four.epub",
+  "bytes": 109348,
+  "sha256": "5f49acb859523e5c04663183f6a7eb377c407c9ac73deb35aa5a97fdec1bcfd6"
+ }
+}

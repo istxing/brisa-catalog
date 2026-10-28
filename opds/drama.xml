@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:category:drama</id>
+<title>清風公版書庫 · 诗歌戏剧</title>
+<updated>2026-10-27T23:27:34Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="drama.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:the-raven</id>
+<title>The Raven</title>
+<updated>2026-10-27T23:27:34Z</updated>
+<author><name>Edgar Allan Poe</name></author>
+<dc:language>en</dc:language>
+<category term="drama" label="诗歌戏剧"/>
+<summary>[English] · 1845 · Edgar Allan Poe · 1 章 · 1090 词</summary>
+<qf:language>en</qf:language>
+<qf:dynasty>1845</qf:dynasty>
+<qf:category>drama</qf:category>
+<qf:subcategory>Poetry</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>4882</qf:chars>
+<qf:words>1090</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-raven/the-raven.epub" length="6456"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-raven/manifest.json"/>
+</entry>
+</feed>

@@ -1,0 +1,53 @@
+{
+ "schema": 2,
+ "id": "kokoro",
+ "title": "こころ",
+ "aliases": [
+  "心",
+  "夏目漱石 心",
+  "Kokoro"
+ ],
+ "author": "夏目漱石",
+ "dynasty": "1914",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T01:24:02Z",
+ "content_hash": "af8fafed8401b597b11f7500ee407dc433d90b8efdb9701068994fb2927cb418",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "こころ",
+  "url": "https://ja.wikisource.org/wiki/%E3%81%93%E3%81%93%E3%82%8D"
+ },
+ "chars": 162949,
+ "words": 18211,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "こころ",
+   "path": "chapters/0001.xhtml",
+   "chars": 162949,
+   "words": 18211,
+   "bytes": 557045,
+   "sha256": "f9446d3d9dee8779d95ce764f9e272346208cd54dd7fab55c89eeb1e34553844",
+   "source": "こころ",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "kokoro.epub",
+  "bytes": 177016,
+  "sha256": "5678273411ecaa9830753bbf313dcb85c13209cdcd09c4b4e6d5ec45e8dd7987"
+ }
+}

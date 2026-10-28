@@ -1,0 +1,52 @@
+{
+ "schema": 2,
+ "id": "kumo-no-ito",
+ "title": "蜘蛛の糸",
+ "aliases": [
+  "蜘蛛之丝",
+  "芥川龙之介 蜘蛛之丝"
+ ],
+ "author": "芥川龍之介",
+ "dynasty": "1918",
+ "category": "fiction",
+ "subcategory": "小説",
+ "lang": "ja",
+ "summary": "",
+ "base_text": "",
+ "revision": 1,
+ "updated": "2026-10-28T03:52:44Z",
+ "content_hash": "af09f251525e4cac7b3b3484fbe9d5932f09cf91ccf0ca74a8f9f07b779122ff",
+ "rights": {
+  "status": "pending",
+  "text": "public-domain",
+  "formatting_license": "CC BY-SA 4.0",
+  "formatting_license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+  "modern_edition": false
+ },
+ "source": {
+  "site": "ウィキソース (日本語)",
+  "page": "蜘蛛の糸",
+  "url": "https://ja.wikisource.org/wiki/%E8%9C%98%E8%9B%9B%E3%81%AE%E7%B3%B8"
+ },
+ "chars": 2851,
+ "words": 334,
+ "chapters": [
+  {
+   "index": 1,
+   "title": "蜘蛛の糸",
+   "path": "chapters/0001.xhtml",
+   "chars": 2851,
+   "words": 334,
+   "bytes": 10099,
+   "sha256": "c7fed2d4beaf3e371224dc0a60e57cf7ba5d5ad4560e50e3f58bd82b449b49cc",
+   "source": "蜘蛛の糸",
+   "source_revid": 1
+  }
+ ],
+ "stylesheet": "style.css",
+ "epub": {
+  "path": "kumo-no-ito.epub",
+  "bytes": 7502,
+  "sha256": "df5e9a5cfe1d9d078b4d08a1f3ae3842fe337e871563ec3328161469c0ca4422"
+ }
+}

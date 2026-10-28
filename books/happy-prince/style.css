@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body { margin: 0 6%; line-height: 1.6; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+h1, h2, h3 { line-height: 1.3; font-weight: bold; }
+h1 { font-size: 1.6em; text-align: center; margin: 2em 0 1em; }
+h2 { font-size: 1.3em; margin: 1.5em 0 1em; }
+h3 { font-size: 1.1em; margin: 1.2em 0 0.6em; }
+p { margin: 0 0 0.75em; text-indent: 1.2em; }
+small { font-size: 0.85em; }
+.meta { text-indent: 0; text-align: center; color: #666; font-style: italic; }
+.about p { text-indent: 0; }

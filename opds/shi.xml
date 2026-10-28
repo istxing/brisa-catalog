@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:category:shi</id>
+<title>清風公版書庫 · 史部</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="shi.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:shiji</id>
+<title>史記</title>
+<updated>2026-10-28T03:42:35Z</updated>
+<author><name>司馬遷</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="shi" label="史部"/>
+<summary>[繁體中文] · 西漢 · 司馬遷 · 130 章 · 529022 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>西漢</qf:dynasty>
+<qf:category>shi</qf:category>
+<qf:subcategory>正史</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>529022</qf:chars>
+<qf:words>106865</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/shiji/shiji.epub" length="996484"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/shiji/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:zhanguoce</id>
+<title>戰國策</title>
+<updated>2026-10-28T03:52:21Z</updated>
+<author><name>劉向 編</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="shi" label="史部"/>
+<summary>[繁體中文] · 西漢 · 劉向 編 · 40 章 · 348823 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>西漢</qf:dynasty>
+<qf:category>shi</qf:category>
+<qf:subcategory>雜史</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>348823</qf:chars>
+<qf:words>92859</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/zhanguoce/zhanguoce.epub" length="616430"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/zhanguoce/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:shanhaijing</id>
+<title>山海經</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>佚名</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="shi" label="史部"/>
+<summary>[繁體中文] · 先秦 · 佚名 · 19 章 · 37367 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>先秦</qf:dynasty>
+<qf:category>shi</qf:category>
+<qf:subcategory>地理</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>37367</qf:chars>
+<qf:words>8297</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/shanhaijing/shanhaijing.epub" length="68537"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/shanhaijing/manifest.json"/>
+</entry>
+</feed>

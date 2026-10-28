@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:qf="https://uni3k.com/ns/qingfeng-catalog/1">
+<id>urn:qingfeng:catalog:category:ji</id>
+<title>清風公版書庫 · 集部</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>清風閱讀公版書庫 · Brisa Reader Public Catalog</name></author>
+<link rel="self" href="ji.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+<link rel="start" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<link rel="up" href="../root.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+<entry>
+<id>urn:qingfeng:book:chuci</id>
+<title>楚辭</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>屈原 等</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="ji" label="集部"/>
+<summary>[繁體中文] · 戰國 · 屈原 等 · 17 章 · 27058 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>戰國</qf:dynasty>
+<qf:category>ji</qf:category>
+<qf:subcategory>楚辭類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>27058</qf:chars>
+<qf:words>4679</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/chuci/chuci.epub" length="65425"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/chuci/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:wenxin-diaolong</id>
+<title>文心雕龍</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>劉勰</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="ji" label="集部"/>
+<summary>[繁體中文] · 南朝梁 · 劉勰 · 50 章 · 38383 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>南朝梁</qf:dynasty>
+<qf:category>ji</qf:category>
+<qf:subcategory>詩文評類</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>38383</qf:chars>
+<qf:words>8316</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/wenxin-diaolong/wenxin-diaolong.epub" length="114896"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/wenxin-diaolong/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:tangshi-sanbaishou</id>
+<title>唐詩三百首</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>蘅塘退士 編</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="ji" label="集部"/>
+<summary>[繁體中文] · 清 · 蘅塘退士 編 · 1 章 · 2542 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>清</qf:dynasty>
+<qf:category>ji</qf:category>
+<qf:subcategory>詩選</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>2542</qf:chars>
+<qf:words>361</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/tangshi-sanbaishou/tangshi-sanbaishou.epub" length="8433"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/tangshi-sanbaishou/manifest.json"/>
+</entry>
+<entry>
+<id>urn:qingfeng:book:songci-sanbaishou</id>
+<title>宋詞三百首</title>
+<updated>2026-10-28T03:52:22Z</updated>
+<author><name>上彊村民 編</name></author>
+<dc:language>zh-Hant</dc:language>
+<category term="ji" label="集部"/>
+<summary>[繁體中文] · 清末 · 上彊村民 編 · 1 章 · 26470 字</summary>
+<qf:language>zh-Hant</qf:language>
+<qf:dynasty>清末</qf:dynasty>
+<qf:category>ji</qf:category>
+<qf:subcategory>詞選</qf:subcategory>
+<qf:baseText></qf:baseText>
+<qf:rights>pending</qf:rights>
+<qf:revision>1</qf:revision>
+<qf:chars>26470</qf:chars>
+<qf:words>5800</qf:words>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/songci-sanbaishou/songci-sanbaishou.epub" length="57141"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/songci-sanbaishou/manifest.json"/>
+</entry>
+</feed>

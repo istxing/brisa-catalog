@@ -24,7 +24,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>4882</qf:chars>
 <qf:words>1090</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-raven/the-raven.epub" length="6456"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-raven/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/the-raven/the-raven.epub" length="6456"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/the-raven/manifest.json"/>
 </entry>
 </feed>

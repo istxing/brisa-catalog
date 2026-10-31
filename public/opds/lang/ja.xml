@@ -24,8 +24,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>162949</qf:chars>
 <qf:words>18211</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/kokoro/kokoro.epub" length="177016"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/kokoro/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/kokoro/kokoro.epub" length="177016"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/kokoro/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:wagahai-wa-neko-de-aru</id>
@@ -44,8 +44,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>324821</qf:chars>
 <qf:words>36550</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/wagahai-wa-neko-de-aru/wagahai-wa-neko-de-aru.epub" length="390019"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/wagahai-wa-neko-de-aru/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/wagahai-wa-neko-de-aru/wagahai-wa-neko-de-aru.epub" length="390019"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/wagahai-wa-neko-de-aru/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:botchan</id>
@@ -64,8 +64,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>90949</qf:chars>
 <qf:words>11790</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/botchan/botchan.epub" length="110367"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/botchan/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/botchan/botchan.epub" length="110367"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/botchan/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:rashomon</id>
@@ -84,8 +84,8 @@
 <qf:revision>2</qf:revision>
 <qf:chars>6042</qf:chars>
 <qf:words>1268</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/rashomon/rashomon.epub" length="11983"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/rashomon/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/rashomon/rashomon.epub" length="11983"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/rashomon/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:kumo-no-ito</id>
@@ -104,8 +104,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>2851</qf:chars>
 <qf:words>334</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/kumo-no-ito/kumo-no-ito.epub" length="7502"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/kumo-no-ito/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/kumo-no-ito/kumo-no-ito.epub" length="7502"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/kumo-no-ito/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:hana</id>
@@ -124,8 +124,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>5748</qf:chars>
 <qf:words>718</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/hana/hana.epub" length="11250"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/hana/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/hana/hana.epub" length="11250"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/hana/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:maihime</id>
@@ -144,7 +144,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>14259</qf:chars>
 <qf:words>1110</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/maihime/maihime.epub" length="23457"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/maihime/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/maihime/maihime.epub" length="23457"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/maihime/manifest.json"/>
 </entry>
 </feed>

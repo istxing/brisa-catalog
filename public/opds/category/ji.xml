@@ -24,8 +24,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>27058</qf:chars>
 <qf:words>4679</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/chuci/chuci.epub" length="65425"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/chuci/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/chuci/chuci.epub" length="65425"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/chuci/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:wenxin-diaolong</id>
@@ -44,8 +44,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>38383</qf:chars>
 <qf:words>8316</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/wenxin-diaolong/wenxin-diaolong.epub" length="114896"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/wenxin-diaolong/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/wenxin-diaolong/wenxin-diaolong.epub" length="114896"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/wenxin-diaolong/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:tangshi-sanbaishou</id>
@@ -64,8 +64,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>2542</qf:chars>
 <qf:words>361</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/tangshi-sanbaishou/tangshi-sanbaishou.epub" length="8433"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/tangshi-sanbaishou/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/tangshi-sanbaishou/tangshi-sanbaishou.epub" length="8433"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/tangshi-sanbaishou/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:songci-sanbaishou</id>
@@ -84,7 +84,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>26470</qf:chars>
 <qf:words>5800</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/songci-sanbaishou/songci-sanbaishou.epub" length="57141"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/songci-sanbaishou/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/songci-sanbaishou/songci-sanbaishou.epub" length="57141"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/songci-sanbaishou/manifest.json"/>
 </entry>
 </feed>

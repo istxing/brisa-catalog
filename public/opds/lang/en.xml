@@ -24,8 +24,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>4882</qf:chars>
 <qf:words>1090</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-raven/the-raven.epub" length="6456"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-raven/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/the-raven/the-raven.epub" length="6456"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/the-raven/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:study-in-scarlet</id>
@@ -44,8 +44,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>195646</qf:chars>
 <qf:words>45474</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/study-in-scarlet/study-in-scarlet.epub" length="120064"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/study-in-scarlet/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/study-in-scarlet/study-in-scarlet.epub" length="120064"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/study-in-scarlet/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:sign-of-the-four</id>
@@ -64,8 +64,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>178405</qf:chars>
 <qf:words>43122</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sign-of-the-four/sign-of-the-four.epub" length="109348"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sign-of-the-four/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/sign-of-the-four/sign-of-the-four.epub" length="109348"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/sign-of-the-four/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:sherlock-holmes-adventures</id>
@@ -84,8 +84,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>431762</qf:chars>
 <qf:words>104662</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sherlock-holmes-adventures/sherlock-holmes-adventures.epub" length="235079"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sherlock-holmes-adventures/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/sherlock-holmes-adventures/sherlock-holmes-adventures.epub" length="235079"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/sherlock-holmes-adventures/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:sherlock-holmes-memoirs</id>
@@ -104,8 +104,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>364950</qf:chars>
 <qf:words>87721</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sherlock-holmes-memoirs/sherlock-holmes-memoirs.epub" length="199076"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sherlock-holmes-memoirs/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/sherlock-holmes-memoirs/sherlock-holmes-memoirs.epub" length="199076"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/sherlock-holmes-memoirs/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:hound-of-the-baskervilles</id>
@@ -124,8 +124,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>246142</qf:chars>
 <qf:words>59730</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/hound-of-the-baskervilles/hound-of-the-baskervilles.epub" length="145630"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/hound-of-the-baskervilles/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/hound-of-the-baskervilles/hound-of-the-baskervilles.epub" length="145630"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/hound-of-the-baskervilles/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:twenty-thousand-leagues</id>
@@ -144,8 +144,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>460841</qf:chars>
 <qf:words>103539</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/twenty-thousand-leagues/twenty-thousand-leagues.epub" length="281239"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/twenty-thousand-leagues/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/twenty-thousand-leagues/twenty-thousand-leagues.epub" length="281239"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/twenty-thousand-leagues/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:around-the-world-in-eighty-days</id>
@@ -164,8 +164,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>293919</qf:chars>
 <qf:words>64482</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/around-the-world-in-eighty-days/around-the-world-in-eighty-days.epub" length="188302"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/around-the-world-in-eighty-days/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/around-the-world-in-eighty-days/around-the-world-in-eighty-days.epub" length="188302"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/around-the-world-in-eighty-days/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:treasure-island</id>
@@ -184,8 +184,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>270594</qf:chars>
 <qf:words>67353</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/treasure-island/treasure-island.epub" length="176978"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/treasure-island/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/treasure-island/treasure-island.epub" length="176978"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/treasure-island/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:robinson-crusoe</id>
@@ -204,8 +204,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>480015</qf:chars>
 <qf:words>121052</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/robinson-crusoe/robinson-crusoe.epub" length="250832"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/robinson-crusoe/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/robinson-crusoe/robinson-crusoe.epub" length="250832"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/robinson-crusoe/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:the-time-machine</id>
@@ -224,8 +224,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>140964</qf:chars>
 <qf:words>32490</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-time-machine/the-time-machine.epub" length="88477"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-time-machine/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/the-time-machine/the-time-machine.epub" length="88477"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/the-time-machine/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:pride-and-prejudice</id>
@@ -244,8 +244,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>537117</qf:chars>
 <qf:words>122309</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/pride-and-prejudice/pride-and-prejudice.epub" length="324745"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/pride-and-prejudice/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/pride-and-prejudice/pride-and-prejudice.epub" length="324745"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/pride-and-prejudice/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:sense-and-sensibility</id>
@@ -264,8 +264,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>525629</qf:chars>
 <qf:words>120443</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sense-and-sensibility/sense-and-sensibility.epub" length="309546"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sense-and-sensibility/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/sense-and-sensibility/sense-and-sensibility.epub" length="309546"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/sense-and-sensibility/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:jane-eyre</id>
@@ -284,8 +284,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>781013</qf:chars>
 <qf:words>185575</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/jane-eyre/jane-eyre.epub" length="463193"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/jane-eyre/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/jane-eyre/jane-eyre.epub" length="463193"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/jane-eyre/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:tale-of-two-cities</id>
@@ -304,8 +304,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>588567</qf:chars>
 <qf:words>137284</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/tale-of-two-cities/tale-of-two-cities.epub" length="348039"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/tale-of-two-cities/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/tale-of-two-cities/tale-of-two-cities.epub" length="348039"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/tale-of-two-cities/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:the-great-gatsby</id>
@@ -324,8 +324,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>206092</qf:chars>
 <qf:words>49657</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/the-great-gatsby/the-great-gatsby.epub" length="123228"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/the-great-gatsby/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/the-great-gatsby/the-great-gatsby.epub" length="123228"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/the-great-gatsby/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:tom-sawyer</id>
@@ -344,8 +344,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>294849</qf:chars>
 <qf:words>70521</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/tom-sawyer/tom-sawyer.epub" length="191981"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/tom-sawyer/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/tom-sawyer/tom-sawyer.epub" length="191981"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/tom-sawyer/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:call-of-the-wild</id>
@@ -364,8 +364,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>138009</qf:chars>
 <qf:words>31833</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/call-of-the-wild/call-of-the-wild.epub" length="79199"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/call-of-the-wild/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/call-of-the-wild/call-of-the-wild.epub" length="79199"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/call-of-the-wild/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:alice-in-wonderland</id>
@@ -384,8 +384,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>103375</qf:chars>
 <qf:words>25444</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/alice-in-wonderland/alice-in-wonderland.epub" length="65590"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/alice-in-wonderland/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/alice-in-wonderland/alice-in-wonderland.epub" length="65590"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/alice-in-wonderland/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:happy-prince</id>
@@ -404,8 +404,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>65312</qf:chars>
 <qf:words>16197</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/happy-prince/happy-prince.epub" length="38623"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/happy-prince/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/happy-prince/happy-prince.epub" length="38623"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/happy-prince/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:walden</id>
@@ -424,8 +424,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>449782</qf:chars>
 <qf:words>105236</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/walden/walden.epub" length="250042"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/walden/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/walden/walden.epub" length="250042"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/walden/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:art-of-war-en</id>
@@ -444,7 +444,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>55389</qf:chars>
 <qf:words>12984</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/art-of-war-en/art-of-war-en.epub" length="44791"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/art-of-war-en/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/art-of-war-en/art-of-war-en.epub" length="44791"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/art-of-war-en/manifest.json"/>
 </entry>
 </feed>

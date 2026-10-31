@@ -24,8 +24,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>65160</qf:chars>
 <qf:words>13766</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/zhuangzi/zhuangzi.epub" length="136691"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/zhuangzi/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/zhuangzi/zhuangzi.epub" length="136691"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/zhuangzi/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:daodejing</id>
@@ -44,8 +44,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>5557</qf:chars>
 <qf:words>1219</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/daodejing/daodejing.epub" length="13155"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/daodejing/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/daodejing/daodejing.epub" length="13155"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/daodejing/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:sunzi-bingfa</id>
@@ -64,8 +64,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>7244</qf:chars>
 <qf:words>116</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/sunzi-bingfa/sunzi-bingfa.epub" length="14774"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/sunzi-bingfa/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/sunzi-bingfa/sunzi-bingfa.epub" length="14774"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/sunzi-bingfa/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:xunzi</id>
@@ -84,8 +84,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>109853</qf:chars>
 <qf:words>23927</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/xunzi/xunzi.epub" length="211666"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/xunzi/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/xunzi/xunzi.epub" length="211666"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/xunzi/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:hanfeizi</id>
@@ -104,8 +104,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>212482</qf:chars>
 <qf:words>39752</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/hanfeizi/hanfeizi.epub" length="398311"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/hanfeizi/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/hanfeizi/hanfeizi.epub" length="398311"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/hanfeizi/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:mozi</id>
@@ -124,8 +124,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>152526</qf:chars>
 <qf:words>29381</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/mozi/mozi.epub" length="256744"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/mozi/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/mozi/mozi.epub" length="256744"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/mozi/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:guanzi</id>
@@ -144,8 +144,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>128346</qf:chars>
 <qf:words>25497</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/guanzi/guanzi.epub" length="252886"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/guanzi/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/guanzi/guanzi.epub" length="252886"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/guanzi/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:liezi</id>
@@ -164,7 +164,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>30729</qf:chars>
 <qf:words>6185</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/liezi/liezi.epub" length="62056"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/liezi/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/liezi/liezi.epub" length="62056"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/liezi/manifest.json"/>
 </entry>
 </feed>

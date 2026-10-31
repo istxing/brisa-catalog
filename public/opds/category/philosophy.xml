@@ -24,8 +24,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>449782</qf:chars>
 <qf:words>105236</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/walden/walden.epub" length="250042"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/walden/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/walden/walden.epub" length="250042"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/walden/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:art-of-war-en</id>
@@ -44,7 +44,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>55389</qf:chars>
 <qf:words>12984</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/art-of-war-en/art-of-war-en.epub" length="44791"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/art-of-war-en/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/art-of-war-en/art-of-war-en.epub" length="44791"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/art-of-war-en/manifest.json"/>
 </entry>
 </feed>

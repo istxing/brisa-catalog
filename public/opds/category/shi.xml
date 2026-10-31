@@ -24,8 +24,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>529022</qf:chars>
 <qf:words>106865</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/shiji/shiji.epub" length="996484"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/shiji/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/shiji/shiji.epub" length="996484"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/shiji/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:zhanguoce</id>
@@ -44,8 +44,8 @@
 <qf:revision>1</qf:revision>
 <qf:chars>348823</qf:chars>
 <qf:words>92859</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/zhanguoce/zhanguoce.epub" length="616430"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/zhanguoce/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/zhanguoce/zhanguoce.epub" length="616430"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/zhanguoce/manifest.json"/>
 </entry>
 <entry>
 <id>urn:qingfeng:book:shanhaijing</id>
@@ -64,7 +64,7 @@
 <qf:revision>1</qf:revision>
 <qf:chars>37367</qf:chars>
 <qf:words>8297</qf:words>
-<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="../books/shanhaijing/shanhaijing.epub" length="68537"/>
-<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="../books/shanhaijing/manifest.json"/>
+<link rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" href="/books/shanhaijing/shanhaijing.epub" length="68537"/>
+<link rel="https://uni3k.com/ns/qingfeng-catalog/1#manifest" type="application/json" href="/books/shanhaijing/manifest.json"/>
 </entry>
 </feed>
